@@ -1,0 +1,504 @@
+<aiml>
+    <!-- Linguaggio -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="alphabet"/>
+        </frame>
+        <pattern>* LANGUAGE *</pattern>
+        <template>
+            The language accepted by this automaton is made of zero or more words formed by a
+            sequence of a triple of 1s followed by a pair of 0s.
+        </template>
+    </category>
+
+    <!-- Deterministico -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="deterministic"/>
+        </frame>
+        <pattern>* DETERMINISTIC *</pattern>
+        <template>
+            The automaton is deterministic.
+        </template>
+    </category>
+
+    <!-- Grafico -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="automata"/>
+            <slot name="qud" value="graphicRepresentation"/>
+        </frame>
+        <pattern>* REPRESENTED *</pattern>
+        <template>
+            This automaton can be represented as a pentagon with its states arranged as vertices.
+        </template>
+    </category>
+
+    <!-- Help-->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="help"/>
+        </frame>
+        <pattern>WHAT * ASK</pattern>
+        <template>
+            You can ask me to describe you the automaton or a more specific question about it. For
+            example, you can ask me about transitions or whether there is a path between two nodes.
+        </template>
+    </category>
+
+    <!-- Descrizione automa in breve -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="automata"/>
+            <slot name="mode" value="briefly"/>
+        </frame>
+        <pattern>* BRIEFLY *</pattern>
+        <template>
+            This automaton accepts zero or more words in a binary alphabet formed by a sequence of a triple 
+            of 1s followed by a pair of 0s.
+        </template>
+    </category>
+
+    <!-- Descrizione automa in dettaglio -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="automata"/>
+        </frame>
+        <pattern>* AUTOMATON *</pattern>
+        <template>
+            It is an automaton which accepts zero or more words in a binary alphabet formed by a
+            sequence of a triple of 1s followed by a pair of 0s. There are a total of 5 states: q0, q1,
+            q2, q3, and q4. q0 is both initial and end state.
+            From each state 1 arc starts: from q0 the arc points to q1 and is marked with 1.
+            From q1 it points to q2 and is marked with 1.
+            From q2 it points to q3 and is marked with 1.
+            From q3 points to q4 and is marked with 0.
+            Finally, from q4 points to q0 and is marked again with 0.
+        </template>
+    </category>
+
+    <!-- Descrizione stati -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+          <slot name="subtopic" value="state"/>
+        </frame>
+        <pattern>* STATES *</pattern>
+        <template>
+            This automaton has five states. q0 is the initial and final state. From
+            q0 to q1 there is an arc marked as 1. From q1 to q2 there is another arc marked as 1. From
+            q2 to q3 there is an arc marked as 1. From q3 to q4 there is an arc marked as 0. Finally,
+            from q4 to q0 there is an arc marked as 0.
+        </template>
+    </category>
+
+    <!-- Descrizione transizioni -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="transition"/>
+        </frame>
+        <pattern>* TRANSITIONS *</pattern>
+        <template>
+            This automaton has five transitions. q0 is the initial and final 
+            state. From q0 to q1 there is a transition marked as 1. From q1 to q2 there is another
+            transition marked as 1. From q2 to q3 there is a transition marked as 1. From q3 to q4
+            there is a transition marked as 0. Finally, from q4 to q0 there is a transition marked as
+            0.
+        </template>
+    </category>
+
+    <!-- stati e transizioni -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="state"/>
+            <slot name="topic2" value="transition"/>
+            <slot name="qud" value="numberOf"/>
+        </frame>
+        <pattern>STATES AND TRANSITIONS</pattern>
+        <template>
+            In this automaton there are 5 states and 5 transitions. 
+            From each state only one transition starts. Each state receives one transition.
+        </template>
+    </category>
+
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="transition"/>
+            <slot name="topic2" value="state"/>
+            <slot name="qud" value="numberOf"/>
+        </frame>
+        <pattern>TRANSITIONS AND STATES</pattern>
+        <template>
+            In this automaton there are 5 states and 5 transitions. 
+            From each state only one transition starts. Each state receives one transition.
+        </template>
+    </category>
+
+    <!-- Descrizione stato iniziale -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="initialState"/>
+        </frame>
+        <pattern>* INITIAL STATE *</pattern>
+        <template>
+            q0 is the initial state.
+        </template>
+    </category>
+
+    <!-- Descrizione stato finale -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="finalState"/>
+        </frame>
+        <pattern>* INITIAL STATE *</pattern>
+        <template>
+            q0 is the final state.
+        </template>
+    </category>
+
+    <!-- numero di stati -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="state"/>
+            <slot name="qud" value="numberOf"/>
+        </frame>
+        <pattern>MANY STATES *</pattern>
+        <template> There are a total of 5 states. q0, q1, q2, q3, and q4. q0 is both initial and final
+            state.
+        </template>
+    </category>
+
+    <!-- numero di transizioni -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="transition"/>
+            <slot name="qud" value="numberOf"/>
+        </frame>
+        <pattern>MANY ARCS *</pattern>
+        <template>
+            There are a total of 5 arcs. Try asking me if there is a particular pattern among them.
+        </template>
+    </category>
+
+    <!-- pattern -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="pattern"/>
+        </frame>
+        <pattern>* PATTERN *</pattern>
+        <template>There is only one arc starting from each state. The first three in clockwise
+            direction are marked with 1, the remaining two with 0.
+        </template>
+    </category>
+
+    <!-- stato q0 esiste -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="state"/>
+            <slot name="state" value="q0"/>
+        </frame>
+        <pattern>* Q0 EXIST *</pattern>
+        <template>
+            Yes, it exists. It is both initial and final state
+        </template>
+    </category>
+
+    <!-- stato q1 esiste -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="state"/>
+            <slot name="state" value="q1"/>
+        </frame>
+        <pattern>* Q1 EXIST *</pattern>
+        <template>
+            Yes, it exists
+        </template>
+    </category>
+
+    <!-- stato q2 esiste -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="state"/>
+            <slot name="state" value="q2"/>
+        </frame>
+        <pattern>* Q2 EXIST *</pattern>
+        <template>
+            Yes, it exists.
+        </template>
+    </category>
+
+    <!-- stato q3 esiste -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="state"/>
+            <slot name="state" value="q3"/>
+        </frame>
+        <pattern>* Q3 EXIST *</pattern>
+        <template>
+            Yes, it exists.
+        </template>
+    </category>
+
+    <!-- stato q4 esiste -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="state"/>
+            <slot name="state" value="q4"/>
+        </frame>
+        <pattern>* Q4 EXIST *</pattern>
+        <template>
+            Yes, it exists.
+        </template>
+    </category>
+
+    <!-- stato q* non esiste -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="state"/>
+            <slot name="state" value="*"/>
+        </frame>
+        <pattern>* EXIST *</pattern>
+        <template>
+            No, it doesn't exist. The states of this automaton are q0 (initial and final state), q1, q2, q3, and q4.
+        </template>
+    </category>
+
+    <!-- q0 to q1 -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="transition"/>
+            <slot name="state" value="q0"/>
+            <slot name="stateTo" value="q1"/>
+        </frame>
+        <pattern>* Q0 TO Q1 *</pattern>
+        <template>
+            Yes, there is a transition from q0 to q1 and is marked with 1.
+        </template>
+    </category>
+
+    <!-- q0 to another -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="transition"/>
+            <slot name="state" value="q0"/>
+            <slot name="stateTo" value="*"/>
+        </frame>
+        <pattern>* Q0 TO *</pattern>
+        <template>
+            From q0 there is only one transition to q1 marked with 1.
+        </template>
+    </category>
+
+    <!-- q1 to q2 -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="transition"/>
+            <slot name="state" value="q1"/>
+            <slot name="stateTo" value="q2"/>
+        </frame>
+        <pattern>* Q1 TO Q2 *</pattern>
+        <template>
+            Yes, there is a transition from q1 to q2 and is marked with 1.
+        </template>
+    </category>
+
+    <!-- q1 to another -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="transition"/>
+            <slot name="state" value="q1"/>
+            <slot name="stateTo" value="*"/>
+        </frame>
+        <pattern>* Q1 TO *</pattern>
+        <template>
+            From q1 there is only one transition to q2 marked with 1.
+        </template>
+    </category>
+
+    <!-- q2 to q3 -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="transition"/>
+            <slot name="state" value="q2"/>
+            <slot name="stateTo" value="q3"/>
+        </frame>
+        <pattern>* Q2 TO Q3 *</pattern>
+        <template>
+            Yes, there is a transition from q2 to q3 and is marked with 1.
+        </template>
+    </category>
+
+    <!-- q2 to another -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="transition"/>
+            <slot name="state" value="q2"/>
+            <slot name="stateTo" value="*"/>
+        </frame>
+        <pattern>* Q2 TO *</pattern>
+        <template>
+            From q2 there is only one transition to q3 marked with 1.
+        </template>
+    </category>
+
+    <!-- q3 to q4 -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <pattern>* Q3 TO *</pattern>
+        <frame>
+            <slot name="subtopic" value="transition"/>
+            <slot name="state" value="q3"/>
+            <slot name="stateTo" value="q4"/>
+        </frame>
+        <template>
+            Yes, there is a transition from q3 to q4 and is marked with 0.
+        </template>
+    </category>
+
+    <!-- q3 to another -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <pattern>* Q3 TO *</pattern>
+        <frame>
+            <slot name="subtopic" value="transition"/>
+            <slot name="state" value="q3"/>
+            <slot name="stateTo" value="*"/>
+        </frame>
+        <template>
+            From q3 there is only one transition to q4 marked with 0.
+        </template>
+    </category>
+
+    <!-- q4 to q0 -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="transition"/>
+            <slot name="state" value="q4"/>
+            <slot name="stateTo" value="q0"/>
+        </frame>
+        <pattern>* Q4 TO Q0 *</pattern>
+        <template>
+            Yes, there is a transition from q4 to q0 and is marked with 0.
+        </template>
+    </category>
+
+    <!-- q4 to another -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="transition"/>
+            <slot name="state" value="q4"/>
+            <slot name="stateTo" value="*"/>
+        </frame>
+        <pattern>* Q4 TO *</pattern>
+        <template>
+            From q4 there is only one transition to q0 marked with 0.
+        </template>
+    </category>
+
+    <!-- something to something -->
+    <category>
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            <slot name="subtopic" value="transition"/>
+            <slot name="state" value="*"/>
+            <slot name="stateTo" value="*"/>
+        </frame>
+        <pattern>TRANSITION FROM * TO *</pattern>
+        <template>
+            No, it doesn't exist. This automaton is made of 5 states: q0, q1, q2, q3, and q4. 
+            Transitions are only among the above mentioned states.
+        </template>
+    </category>
+</aiml>

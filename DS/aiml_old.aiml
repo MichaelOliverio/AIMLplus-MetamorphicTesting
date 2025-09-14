@@ -1,0 +1,176 @@
+<aiml>
+    <!-- Linguaggio -->
+    <category intent="fsa-practical" argument="alphabet">
+        <acts>
+            <act time="0">Ta:request</act> 
+        </acts>
+        <frame>
+            <slot name="alphabet">
+                <slot-value value="?" correctedValue="0"/>
+                <slot-value value="?" correctedValue="1"/>
+            </slot>
+        </frame>
+        <template>
+            The language accepted by this automaton is made of zero or more words formed by a
+            sequence of a triple of 1s followed by a pair of 0s.
+        </template>
+    </category>
+
+    <!-- Deterministico -->
+    <category intent="fsa-practical" argument="automaton">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            <slot name="automatonType" value="deterministic"/>
+        </frame>
+        <template>
+            The automaton is deterministic.
+        </template>
+    </category>
+
+    <!-- q0 to q1 -->
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            <slot name="transition">
+                <slot-values>
+                    <slot-value value="q0"/>
+                    <slot-value value="q1"/>
+                    <slot-value value="0" correctedValue="1"/>
+                </slot-values>
+            </slot>
+        </frame>
+        <input>IS THERE A TRANSITION FROM Q0 TO Q1</input>
+        <pattern>* Q0 TO Q1 *</pattern>
+        <template>
+            No, but there is a transition from q0 to q1 and is marked with 1.
+        </template>
+    </category>
+
+    <!-- q0 to q1 -->
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="-1">Ta:request</act>
+            <act time="0">AutoF:autoNegative</act>
+        </acts>
+        <frame>
+            <slot name="transition">
+                <slot-values>
+                    <slot-value value="q0"/>
+                    <slot-value value="q1"/>
+                    <slot-value value="0" correctedValue="1"/>
+                </slot-values>
+            </slot>
+        </frame>
+        <input>IS THERE A TRANSITION FROM Q0 TO Q1</input>
+        <pattern>* Q0 TO Q1 *</pattern>
+        <template>
+            Non saprei allora.
+        </template>
+    </category>
+    
+
+    <!-- q0 to q1 -->
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            <slot name="transition">
+                <slot-values>
+                    <slot-value value="q0"/>
+                    <slot-value value="q1"/>
+                    <slot-value value="?" correctedValue="1"/>
+                </slot-values>
+            </slot>
+        </frame>
+        <input>IS THERE A TRANSITION FROM Q0 TO Q1</input>
+        <pattern>* Q0 TO Q1 *</pattern>
+        <template>
+            There is a transition from q0 to q1 and is marked with 1.
+        </template>
+    </category>
+
+    <category>
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            <slot name="transition">
+                <slot-values>
+                    <slot-value value="q1"/>
+                    <slot-value value="q2"/>
+                    <slot-value value="?" correctedValue="1"/>
+                </slot-values>
+            </slot>
+        </frame>
+        <input>IS THERE A TRANSITION FROM Q1 TO Q2</input>
+        <pattern>* Q1 TO Q2 *</pattern>
+        <template>
+            There is a transition from q1 to q2 and is marked with 1.
+        </template>
+    </category>
+
+    <category>
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            <slot name="transition">
+                <slot-values>
+                    <slot-value value="q1"/>
+                    <slot-value value="q2"/>
+                    <slot-value value="1"/>
+                </slot-values>
+            </slot>
+        </frame>
+        <input>IS THERE A TRANSITION FROM Q0 TO Q1</input>
+        <pattern>* Q0 TO Q1 *</pattern>
+        <template>
+            Yes, there is a transition from q0 to q1 and is marked with 1.
+        </template>
+    </category>
+
+    <category>
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            <slot name="transition">
+                <slot-values>
+                    <slot-value value="q1"/>
+                    <slot-value value="q2"/>
+                    <slot-value value="*" correctedValue="1"/>
+                </slot-values>
+            </slot>
+        </frame>
+        <input>IS THERE A TRANSITION FROM Q0 TO Q1</input>
+        <pattern>* Q0 TO Q1 *</pattern>
+        <template>
+            No, the transition from q0 to q1 is marked with 1.
+        </template>
+    </category>
+
+    <category>
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            <slot name="transition">
+                <slot-values>
+                    <slot-value value="q1"/>
+                    <slot-value value="q2"/>
+                    <slot-value value="0" correctedValue="1"/>
+                </slot-values>
+            </slot>
+        </frame>
+        <input>IS THERE A TRANSITION FROM Q0 TO Q1</input>
+        <pattern>* Q0 TO Q1 *</pattern>
+        <template>
+            No, the transition from q0 to q1 is marked with 1.
+        </template>
+    </category>
+</aiml>

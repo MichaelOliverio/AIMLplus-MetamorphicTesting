@@ -1,0 +1,12 @@
+<aiml>
+    <category>
+        <acts>
+            <act time="0">Ta:answer</act>
+        </acts>
+        <frame></frame>
+        <pattern>* ANSWER *</pattern>
+        <template>
+            To stay on topic, ask me something about the automata.
+        </template>
+    </category>
+</aiml>

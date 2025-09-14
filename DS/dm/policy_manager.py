@@ -60,7 +60,7 @@ class PolicyManager:
         print("best_category:", best_category)
         print("certainty_score:", certainty_score)
 
-        if best_category and certainty_score >= self.uncertainty_threshold:
+        if best_category: # and certainty_score >= self.uncertainty_threshold:
             print(f"Best category: {best_category.frame}, with score {certainty_score}")
             return best_category, already_asked_index
         else:

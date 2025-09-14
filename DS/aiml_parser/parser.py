@@ -108,7 +108,7 @@ class AIMLParser:
             self.categories.append(category)
             category_id += 1
             
-        self.print_summary()
+        #self.print_summary()
 
     def load_from_folder(self, folderpath: str) -> None:
         """

@@ -8,3 +8,4 @@ DS/nlu/__pycache__/*
 DS/tests/__pycache__/*
 venv/*
 DS/.env
+DS/__pycache__/*

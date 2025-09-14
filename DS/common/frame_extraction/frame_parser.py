@@ -163,6 +163,9 @@ class FrameParser:
             else:
                 result['intent'] = None
 
+        if result['intent'] == 'fsa-theoretical':
+            result['intent'] = 'fsa-practical'
+
         result = FrameParser.convert_tuples_to_lists(result)
         return result
     

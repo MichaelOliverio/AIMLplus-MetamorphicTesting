@@ -1,0 +1,10 @@
+DS/aiml_parser/__pycache__/*
+DS/common/__pycache__/*
+DS/common/frame_extraction/__pycache__/*
+DS/common/frame_extraction/tests/__pycache__/*
+DS/common/paraphraser/__pycache__/*
+DS/dm/__pycache__/*
+DS/nlu/__pycache__/*
+DS/tests/__pycache__/*
+venv/*
+DS/.env

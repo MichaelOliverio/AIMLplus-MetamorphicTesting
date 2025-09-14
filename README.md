@@ -61,3 +61,7 @@ pip install -r requirements.txt
 ```
 
 ---
+
+Esecuzione del servizio:
+1. eseguire il comando "cd DS" da terminale
+2. eseguire il comando "uvicorn api:app --reload"

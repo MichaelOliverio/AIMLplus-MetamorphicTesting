@@ -1,0 +1,1595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+    <category intent="fsa-practical" argument="automaton">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame></frame>
+        <template>
+            The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 e q4. q0 is both the initial and the final state.Le transizioni sono: q0 with value 1 goes goes q1, q1 with value 1 goes goes q2, q2 with value 0 goes goes q3, q3 with value 0 goes goes q4, q4 with value 0 goes to q0.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame></frame>
+        <template>
+            The automaton has 5 states: q0, q1, q2, q3 e q4.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame></frame>
+        <template>
+            The automaton has 5 transitions: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="initialState" value="?"/>
+            
+        
+        </frame>
+        <template>
+            The initial state is q0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="finalStates" value="?"/>
+            
+        
+        </frame>
+        <template>
+            The final state is q0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="automaton">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="numberOfStates" value="?"/>
+            
+            
+            <slot name="numberOfTransitions" value="?"/>
+            
+        
+        </frame>
+        <template>
+            The automaton has 5 states and 5 transitions.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>&lt;frame&gt;
+            &lt;slot name=&quot;initialState&quot; value=&quot;?&quot;&quot;/&gt;
+            &lt;slot name=&quot;finalStates&quot; value=&quot;?&quot;/&gt;
+        &lt;/frame&gt;</frame>
+        <template>
+            q0 is the initial and the final state.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q0 and q0.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            The transition between q0 and q1 is with value 1.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q0 and q2.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q0 and q3.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q0 and q4.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q1 and q0.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q1 and q1.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            The transition between q1 and q2 is with value 1.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q1 and q3.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q1 and q4.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q2 and q0.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q2 and q1.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q2 and q2.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            The transition between q2 and q3 is with value 0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q2 and q4.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q3 and q0.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q3 and q1.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q3 and q2.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q3 and q3.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            The transition between q3 and q4 is with value 0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            The transition between q4 and q0 is with value 0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q4 and q1.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q4 and q2.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q4 and q3.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            there is no transition between q4 and q4.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="transitions">
+                
+                
+                <slot-values>
+                    
+                    
+                    <slot-value value="*"/>
+                    
+                    
+                    <slot-value value="*"/>
+                    
+                    
+                    <slot-value value="?"/>
+                    
+                
+                </slot-values>
+                
+            
+            </slot>
+            
+        
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="q0"/>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="q1"/>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="q2"/>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="q3"/>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="q4"/>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="q0"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="q1"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="q2"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="q3"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="q4"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="states">
+                
+                    
+                <slot-value value="q0"/>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            The state q0 exists.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="states">
+                
+                    
+                <slot-value value="q1"/>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            The state q1 exists.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="states">
+                
+                    
+                <slot-value value="q2"/>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            The state q2 exists.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="states">
+                
+                    
+                <slot-value value="q3"/>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            The state q3 exists.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="states">
+                
+                    
+                <slot-value value="q4"/>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            The state q4 exists.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="initialState" value="q0"/>
+            
+        
+        </frame>
+        <template>
+            The initial state is q0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="initialState" value="*"/>
+            
+        
+        </frame>
+        <template>
+            It is not the initial state.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="finalStates">
+                
+                
+                <slot-value value="q0"/>
+                
+            
+            </slot>
+            
+        
+        </frame>
+        <template>
+            The final state is q0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="finalStates">
+                
+                
+                <slot-value value="*"/>
+                
+            
+            </slot>
+            
+        
+        </frame>
+        <template>
+            The state is not the final state.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="numberOfStates" value="?"/>
+            
+        
+        </frame>
+        <template>
+            This automaton has 5 states
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="numberOfStates" value="5"/>
+            
+        
+        </frame>
+        <template>
+            There are 5 states in this automaton.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="numberOfStates" value="*"/>
+            
+        
+        </frame>
+        <template>
+            The number of states is incorrect.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+</aiml>

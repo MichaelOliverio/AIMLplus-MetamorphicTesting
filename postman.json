@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "70aa8e89-d7b6-47cf-91fa-086b5a44c5f0",
+		"name": "UnitO - Novagraphs->pepper2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12175187"
+	},
+	"item": [
+		{
+			"name": "aiml+",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_input\": \"is there a transition between q0 and q8?\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/chat",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"chat"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

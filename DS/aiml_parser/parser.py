@@ -94,6 +94,30 @@ class AIMLParser:
                             frame[slot_name].append(group_values)
                             correctedFrame[slot_name].append(group_corrected)
 
+            # Estrae svgElement e image
+            svg_elements = []
+            image_path = None
+            if template_element is not None:
+                for svg_el in template_element.findall('svgElement'):
+                    svg_elements.append({
+                        "style_name": svg_el.get("style-name"),
+                        "style_value": svg_el.get("style-value"),
+                        "symbol": svg_el.text.strip() if svg_el.text else None
+                    })
+                image_el = template_element.find('image')
+                if image_el is not None:
+                    image_path = image_el.text.strip()
+
+                # crea il template senza svgElement e image
+                template_copy = ET.fromstring(ET.tostring(template_element))
+                for el in list(template_copy.findall("svgElement")):
+                    template_copy.remove(el)
+                for el in list(template_copy.findall("image")):
+                    template_copy.remove(el)
+                template = "".join(template_copy.itertext()).strip()
+            else:
+                template = ""
+
             # Crea la nuova categoria
             category = Category(
                 id=category_id,
@@ -103,6 +127,8 @@ class AIMLParser:
                 frame=frame,
                 correctedFrame=correctedFrame,
                 template=template,
+                svg_elements=svg_elements,
+                image=image_path
             )
 
             self.categories.append(category)

@@ -1,0 +1,1135 @@
+<?xml version="1.0" ?>
+<aiml>
+    <category>
+        <pattern>* RACCONTAMI DI PIU *</pattern>
+        <template>L'automa accetta zero o più parole formate da una sequenza del tipo 11000. In totale ci sono 5 stati: q0, q1, q2, q3 e q4. q0 è sia lo stato iniziale che lo stato finale.Le transizioni sono: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* DIMMI DI PIU ** DESCRIVIMI L'AUTOMA *</pattern>
+        <template>L'automa accetta zero o più parole formate da una sequenza del tipo 11000. In totale ci sono 5 stati: q0, q1, q2, q3 e q4. q0 è sia lo stato iniziale che lo stato finale.Le transizioni sono: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* DESCRIVI L'AUTOMA *</pattern>
+        <template>L'automa accetta zero o più parole formate da una sequenza del tipo 11000. In totale ci sono 5 stati: q0, q1, q2, q3 e q4. q0 è sia lo stato iniziale che lo stato finale.Le transizioni sono: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* PARLAMI DELL'AUTOMA *</pattern>
+        <template>L'automa accetta zero o più parole formate da una sequenza del tipo 11000. In totale ci sono 5 stati: q0, q1, q2, q3 e q4. q0 è sia lo stato iniziale che lo stato finale.Le transizioni sono: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* PARLA DELL'AUTOMA *</pattern>
+        <template>L'automa accetta zero o più parole formate da una sequenza del tipo 11000. In totale ci sono 5 stati: q0, q1, q2, q3 e q4. q0 è sia lo stato iniziale che lo stato finale.Le transizioni sono: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* PRESENTAMI L'AUTOMA *</pattern>
+        <template>L'automa accetta zero o più parole formate da una sequenza del tipo 11000. In totale ci sono 5 stati: q0, q1, q2, q3 e q4. q0 è sia lo stato iniziale che lo stato finale.Le transizioni sono: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* PRESENTA L'AUTOMA *</pattern>
+        <template>L'automa accetta zero o più parole formate da una sequenza del tipo 11000. In totale ci sono 5 stati: q0, q1, q2, q3 e q4. q0 è sia lo stato iniziale che lo stato finale.Le transizioni sono: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* TABELLA DI TRANSIZIONE *</pattern>
+        <template>L'automa accetta zero o più parole formate da una sequenza del tipo 11000. In totale ci sono 5 stati: q0, q1, q2, q3 e q4. q0 è sia lo stato iniziale che lo stato finale.Le transizioni sono: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* TABELLA DEGLI STATI *</pattern>
+        <template>L'automa accetta zero o più parole formate da una sequenza del tipo 11000. In totale ci sono 5 stati: q0, q1, q2, q3 e q4. q0 è sia lo stato iniziale che lo stato finale.Le transizioni sono: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* COSA SONO * STATI *</pattern>
+        <template>Questo automa ha 5 stati: q0, q1, q2, q3 e q4.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement></template>
+    </category>
+    <category>
+        <pattern>* DI PIU * STATI *</pattern>
+        <template>Questo automa ha 5 stati: q0, q1, q2, q3 e q4.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement></template>
+    </category>
+    <category>
+        <pattern>* PARLAMI * STATI *</pattern>
+        <template>Questo automa ha 5 stati: q0, q1, q2, q3 e q4.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement></template>
+    </category>
+    <category>
+        <pattern>* PARLA * STATI *</pattern>
+        <template>Questo automa ha 5 stati: q0, q1, q2, q3 e q4.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement></template>
+    </category>
+    <category>
+        <pattern>* PRESENTAMI * STATI *</pattern>
+        <template>Questo automa ha 5 stati: q0, q1, q2, q3 e q4.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement></template>
+    </category>
+    <category>
+        <pattern>* PRESENTA * STATI *</pattern>
+        <template>Questo automa ha 5 stati: q0, q1, q2, q3 e q4.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement></template>
+    </category>
+    <category>
+        <pattern>* QUALI SONO * STATI *</pattern>
+        <template>Questo automa ha 5 stati: q0, q1, q2, q3 e q4.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement></template>
+    </category>
+    <category>
+        <pattern>* RACCONTAMI * STATI *</pattern>
+        <template>Questo automa ha 5 stati: q0, q1, q2, q3 e q4.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement></template>
+    </category>
+    <category>
+        <pattern>* RACCONTA * STATI *</pattern>
+        <template>Questo automa ha 5 stati: q0, q1, q2, q3 e q4.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement></template>
+    </category>
+    <category>
+        <pattern>* DIMMI * STATI *</pattern>
+        <template>Questo automa ha 5 stati: q0, q1, q2, q3 e q4.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement></template>
+    </category>
+    <category>
+        <pattern>* DESCRIVIMI * STATI *</pattern>
+        <template>Questo automa ha 5 stati: q0, q1, q2, q3 e q4.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement></template>
+    </category>
+    <category>
+        <pattern>* DESCRIVI * STATI *</pattern>
+        <template>Questo automa ha 5 stati: q0, q1, q2, q3 e q4.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement></template>
+    </category>
+    <category>
+        <pattern>* CHE NE E DI * STATI *</pattern>
+        <template>Questo automa ha 5 stati: q0, q1, q2, q3 e q4.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement></template>
+    </category>
+    <category>
+        <pattern>* DI PIU * TRANSIZIONI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* PARLAMI * TRANSIZIONI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* PARLA * TRANSIZIONI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* PRESENTAMI * TRANSIZIONI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* PRESENTA * TRANSIZIONI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* QUALI SONO * TRANSIZIONI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* RACCONTAMI * TRANSIZIONI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* RACCONTA * TRANSIZIONI ** DIMMI * TRANSIZIONI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* DESCRIVIMI * TRANSIZIONI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* DESCRIVI * TRANSIZIONI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* CHE NE E DI * TRANSIZIONI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* COSA SONO * TRANSIZIONI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* DI PIU * ARCHI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* PARLAMI * ARCHI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* PARLA * ARCHI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* PRESENTAMI * ARCHI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* PRESENTA * ARCHI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* QUALI SONO * ARCHI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* RACCONTAMI * ARCHI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* RACCONTA * ARCHI ** DIMMI * ARCHI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* DESCRIVIMI * ARCHI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* DESCRIVI * ARCHI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* CHE NE E DI * ARCHI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* COSA SONO * ARCHI *</pattern>
+        <template>Questo automa ha 5 transizioni: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.<image>automi/automa.svg</image><svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* DI PIU * STATO INIZIALE *</pattern>
+        <template>Lo stato iniziale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* PARLAMI * STATO INIZIALE *</pattern>
+        <template>Lo stato iniziale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* PARLA * STATO INIZIALE *</pattern>
+        <template>Lo stato iniziale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* PRESENTAMI * STATO INIZIALE *</pattern>
+        <template>Lo stato iniziale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* PRESENTA * STATO INIZIALE *</pattern>
+        <template>Lo stato iniziale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* QUAL E'* STATO INIZIALE *</pattern>
+        <template>Lo stato iniziale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* RACCONTAMI * STATO INIZIALE *</pattern>
+        <template>Lo stato iniziale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* RACCONTA * STATO INIZIALE *</pattern>
+        <template>Lo stato iniziale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* DIMMI * STATO INIZIALE *</pattern>
+        <template>Lo stato iniziale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* DESCRIVIMI * STATO INIZIALE *</pattern>
+        <template>Lo stato iniziale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* DESCRIVI * STATO INIZIALE *</pattern>
+        <template>Lo stato iniziale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* CHE NE E DI * STATO INIZIALE *</pattern>
+        <template>Lo stato iniziale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* DI PIU * STATO FINALE *</pattern>
+        <template>Lo stato finale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* PARLAMI * STATO FINALE *</pattern>
+        <template>Lo stato finale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* PARLA * STATO FINALE *</pattern>
+        <template>Lo stato finale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* PRESENTAMI * STATO FINALE *</pattern>
+        <template>Lo stato finale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* PRESENTA * STATO FINALE *</pattern>
+        <template>Lo stato finale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* QUAL E'* STATO FINALE *</pattern>
+        <template>Lo stato finale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* RACCONTAMI * STATO FINALE *</pattern>
+        <template>Lo stato finale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* RACCONTA * STATO FINALE *</pattern>
+        <template>Lo stato finale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* DIMMI * STATO FINALE *</pattern>
+        <template>Lo stato finale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* DESCRIVIMI * STATO FINALE *</pattern>
+        <template>Lo stato finale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* DESCRIVI * STATO FINALE *</pattern>
+        <template>Lo stato finale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* CHE NE E DI * STATO FINALE *</pattern>
+        <template>Lo stato finale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* DI PIU * STATO ACCETTANTE *</pattern>
+        <template>Lo stato accettante dell'automa è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* PARLAMI * STATO ACCETTANTE *</pattern>
+        <template>Lo stato accettante dell'automa è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* PARLA * STATO ACCETTANTE *</pattern>
+        <template>Lo stato accettante dell'automa è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* PRESENTAMI * STATO ACCETTANTE *</pattern>
+        <template>Lo stato accettante dell'automa è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* PRESENTA * STATO ACCETTANTE *</pattern>
+        <template>Lo stato accettante dell'automa è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* QUAL E'* STATO ACCETTANTE *</pattern>
+        <template>Lo stato accettante dell'automa è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* RACCONTAMI * STATO ACCETTANTE *</pattern>
+        <template>Lo stato accettante dell'automa è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* RACCONTA * STATO ACCETTANTE *</pattern>
+        <template>Lo stato accettante dell'automa è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* DIMMI * STATO ACCETTANTE *</pattern>
+        <template>Lo stato accettante dell'automa è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* DESCRIVIMI * STATO ACCETTANTE *</pattern>
+        <template>Lo stato accettante dell'automa è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* DESCRIVI * STATO ACCETTANTE *</pattern>
+        <template>Lo stato accettante dell'automa è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* CHE NE E DI * STATO ACCETTANTE *</pattern>
+        <template>Lo stato accettante dell'automa è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* QUANTI STATI E *</pattern>
+        <template>Questo automa ha 5 stati e 5 transizioni.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* QUANTI ARCHI E *</pattern>
+        <template>Questo automa ha 5 stati e 5 transizioni.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* QUANTE TRANSIZIONI E *</pattern>
+        <template>Questo automa ha 5 stati e 5 transizioni.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* QUANTI STATI *</pattern>
+        <template>Questo automa ha 5 stati.</template>
+    </category>
+    <category>
+        <pattern>* QUANTI ARCHI *</pattern>
+        <template>Questo automa ha 5 stati e 5 transizioni.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* QUANTE TRANSIZIONI *</pattern>
+        <template>Questo automa ha 5 stati e 5 transizioni.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* QUAL * NUMERO * STATI *</pattern>
+        <template>Questo automa ha 5 stati e 5 transizioni.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* QUAL * NUMERO * ARCHI *</pattern>
+        <template>Questo automa ha 5 stati e 5 transizioni.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* QUAL * NUMERO * TRANSIZIONI *</pattern>
+        <template>Questo automa ha 5 stati e 5 transizioni.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* NUMERO * STATI *</pattern>
+        <template>Questo automa ha 5 stati.</template>
+    </category>
+    <category>
+        <pattern>* NUMERO * ARCHI *</pattern>
+        <template>Questo automa ha 5 stati e 5 transizioni.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* NUMERO * TRANSIZIONI *</pattern>
+        <template>Questo automa ha 5 stati e 5 transizioni.<image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* STATO INIZALE * FINALE *</pattern>
+        <template>q0 è sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* STATI INIZIALI * FINALI *</pattern>
+        <template>q0 è sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* STATI INIZIALI * STATI ACCETTANTI *</pattern>
+        <template>q0 è sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* STATO INIZIALE *</pattern>
+        <template>q0 è sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* STATO FINALE *</pattern>
+        <template>q0 è sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* STATO ACCETTANTE *</pattern>
+        <template>q0 è sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* STATI INIZIALI *</pattern>
+        <template>q0 è sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* STATI FINALI *</pattern>
+        <template>q0 è sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* STATI ACCETTANTI *</pattern>
+        <template>q0 è sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* STATO DI INIZIO *</pattern>
+        <template>q0 è sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* STATO DI FINE *</pattern>
+        <template>q0 è sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* STATI DI INIZIO *</pattern>
+        <template>q0 è sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* STATI DI FINE *</pattern>
+        <template>q0 è sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* STATO DI PARTENZA *</pattern>
+        <template>q0 è sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* STATO DI ARRIVO *</pattern>
+        <template>q0 è sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* STATI DI PARTENZA *</pattern>
+        <template>q0 è sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* STATI DI ARRIVO *</pattern>
+        <template>q0 è sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern> DA Q0 A Q0 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q0.</template>
+    </category>
+    <category>
+        <pattern>* Q0 E Q0 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q0.</template>
+    </category>
+    <category>
+        <pattern>* Q0 * Q0 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q0.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q0 * Q0 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q0.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q0 E Q0 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q0.</template>
+    </category>
+    <category>
+        <pattern> DA Q0 A Q1 *</pattern>
+        <template>Si, c'è una transizione tra q0 e q1, ed è contrassegnata dal valore 1.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* Q0 E Q1 *</pattern>
+        <template>Si, c'è una transizione tra q0 e q1, ed è contrassegnata dal valore 1.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* Q0 * Q1 *</pattern>
+        <template>Si, c'è una transizione tra q0 e q1, ed è contrassegnata dal valore 1.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q0 * Q1 *</pattern>
+        <template>Si, c'è una transizione tra q0 e q1, ed è contrassegnata dal valore 1.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q0 E Q1 *</pattern>
+        <template>Si, c'è una transizione tra q0 e q1, ed è contrassegnata dal valore 1.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern> DA Q0 A Q2 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q2.</template>
+    </category>
+    <category>
+        <pattern>* Q0 E Q2 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q2.</template>
+    </category>
+    <category>
+        <pattern>* Q0 * Q2 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q2.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q0 * Q2 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q2.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q0 E Q2 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q2.</template>
+    </category>
+    <category>
+        <pattern> DA Q0 A Q3 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q3.</template>
+    </category>
+    <category>
+        <pattern>* Q0 E Q3 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q3.</template>
+    </category>
+    <category>
+        <pattern>* Q0 * Q3 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q3.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q0 * Q3 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q3.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q0 E Q3 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q3.</template>
+    </category>
+    <category>
+        <pattern> DA Q0 A Q4 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q4.</template>
+    </category>
+    <category>
+        <pattern>* Q0 E Q4 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q4.</template>
+    </category>
+    <category>
+        <pattern>* Q0 * Q4 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q4.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q0 * Q4 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q4.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q0 E Q4 *</pattern>
+        <template>No, non c'è una transizione tra q0 e q4.</template>
+    </category>
+    <category>
+        <pattern> DA Q1 A Q0 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q0.</template>
+    </category>
+    <category>
+        <pattern>* Q1 E Q0 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q0.</template>
+    </category>
+    <category>
+        <pattern>* Q1 * Q0 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q0.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q1 * Q0 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q0.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q1 E Q0 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q0.</template>
+    </category>
+    <category>
+        <pattern> DA Q1 A Q1 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q1.</template>
+    </category>
+    <category>
+        <pattern>* Q1 E Q1 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q1.</template>
+    </category>
+    <category>
+        <pattern>* Q1 * Q1 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q1.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q1 * Q1 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q1.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q1 E Q1 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q1.</template>
+    </category>
+    <category>
+        <pattern> DA Q1 A Q2 *</pattern>
+        <template>Si, c'è una transizione tra q1 e q2, ed è contrassegnata dal valore 1.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* Q1 E Q2 *</pattern>
+        <template>Si, c'è una transizione tra q1 e q2, ed è contrassegnata dal valore 1.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* Q1 * Q2 *</pattern>
+        <template>Si, c'è una transizione tra q1 e q2, ed è contrassegnata dal valore 1.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q1 * Q2 *</pattern>
+        <template>Si, c'è una transizione tra q1 e q2, ed è contrassegnata dal valore 1.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q1 E Q2 *</pattern>
+        <template>Si, c'è una transizione tra q1 e q2, ed è contrassegnata dal valore 1.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern> DA Q1 A Q3 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q3.</template>
+    </category>
+    <category>
+        <pattern>* Q1 E Q3 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q3.</template>
+    </category>
+    <category>
+        <pattern>* Q1 * Q3 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q3.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q1 * Q3 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q3.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q1 E Q3 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q3.</template>
+    </category>
+    <category>
+        <pattern> DA Q1 A Q4 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q4.</template>
+    </category>
+    <category>
+        <pattern>* Q1 E Q4 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q4.</template>
+    </category>
+    <category>
+        <pattern>* Q1 * Q4 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q4.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q1 * Q4 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q4.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q1 E Q4 *</pattern>
+        <template>No, non c'è una transizione tra q1 e q4.</template>
+    </category>
+    <category>
+        <pattern> DA Q2 A Q0 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q0.</template>
+    </category>
+    <category>
+        <pattern>* Q2 E Q0 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q0.</template>
+    </category>
+    <category>
+        <pattern>* Q2 * Q0 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q0.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q2 * Q0 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q0.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q2 E Q0 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q0.</template>
+    </category>
+    <category>
+        <pattern> DA Q2 A Q1 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q1.</template>
+    </category>
+    <category>
+        <pattern>* Q2 E Q1 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q1.</template>
+    </category>
+    <category>
+        <pattern>* Q2 * Q1 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q1.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q2 * Q1 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q1.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q2 E Q1 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q1.</template>
+    </category>
+    <category>
+        <pattern> DA Q2 A Q2 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q2.</template>
+    </category>
+    <category>
+        <pattern>* Q2 E Q2 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q2.</template>
+    </category>
+    <category>
+        <pattern>* Q2 * Q2 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q2.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q2 * Q2 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q2.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q2 E Q2 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q2.</template>
+    </category>
+    <category>
+        <pattern> DA Q2 A Q3 *</pattern>
+        <template>Si, c'è una transizione tra q2 e q3, ed è contrassegnata dal valore 0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* Q2 E Q3 *</pattern>
+        <template>Si, c'è una transizione tra q2 e q3, ed è contrassegnata dal valore 0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* Q2 * Q3 *</pattern>
+        <template>Si, c'è una transizione tra q2 e q3, ed è contrassegnata dal valore 0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q2 * Q3 *</pattern>
+        <template>Si, c'è una transizione tra q2 e q3, ed è contrassegnata dal valore 0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q2 E Q3 *</pattern>
+        <template>Si, c'è una transizione tra q2 e q3, ed è contrassegnata dal valore 0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern> DA Q2 A Q4 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q4.</template>
+    </category>
+    <category>
+        <pattern>* Q2 E Q4 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q4.</template>
+    </category>
+    <category>
+        <pattern>* Q2 * Q4 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q4.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q2 * Q4 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q4.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q2 E Q4 *</pattern>
+        <template>No, non c'è una transizione tra q2 e q4.</template>
+    </category>
+    <category>
+        <pattern> DA Q3 A Q0 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q0.</template>
+    </category>
+    <category>
+        <pattern>* Q3 E Q0 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q0.</template>
+    </category>
+    <category>
+        <pattern>* Q3 * Q0 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q0.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q3 * Q0 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q0.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q3 E Q0 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q0.</template>
+    </category>
+    <category>
+        <pattern> DA Q3 A Q1 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q1.</template>
+    </category>
+    <category>
+        <pattern>* Q3 E Q1 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q1.</template>
+    </category>
+    <category>
+        <pattern>* Q3 * Q1 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q1.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q3 * Q1 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q1.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q3 E Q1 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q1.</template>
+    </category>
+    <category>
+        <pattern> DA Q3 A Q2 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q2.</template>
+    </category>
+    <category>
+        <pattern>* Q3 E Q2 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q2.</template>
+    </category>
+    <category>
+        <pattern>* Q3 * Q2 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q2.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q3 * Q2 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q2.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q3 E Q2 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q2.</template>
+    </category>
+    <category>
+        <pattern> DA Q3 A Q3 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q3.</template>
+    </category>
+    <category>
+        <pattern>* Q3 E Q3 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q3.</template>
+    </category>
+    <category>
+        <pattern>* Q3 * Q3 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q3.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q3 * Q3 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q3.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q3 E Q3 *</pattern>
+        <template>No, non c'è una transizione tra q3 e q3.</template>
+    </category>
+    <category>
+        <pattern> DA Q3 A Q4 *</pattern>
+        <template>Si, c'è una transizione tra q3 e q4, ed è contrassegnata dal valore 0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* Q3 E Q4 *</pattern>
+        <template>Si, c'è una transizione tra q3 e q4, ed è contrassegnata dal valore 0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* Q3 * Q4 *</pattern>
+        <template>Si, c'è una transizione tra q3 e q4, ed è contrassegnata dal valore 0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q3 * Q4 *</pattern>
+        <template>Si, c'è una transizione tra q3 e q4, ed è contrassegnata dal valore 0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q3 E Q4 *</pattern>
+        <template>Si, c'è una transizione tra q3 e q4, ed è contrassegnata dal valore 0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern> DA Q4 A Q0 *</pattern>
+        <template>Si, c'è una transizione tra q4 e q0, ed è contrassegnata dal valore 0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* Q4 E Q0 *</pattern>
+        <template>Si, c'è una transizione tra q4 e q0, ed è contrassegnata dal valore 0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* Q4 * Q0 *</pattern>
+        <template>Si, c'è una transizione tra q4 e q0, ed è contrassegnata dal valore 0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q4 * Q0 *</pattern>
+        <template>Si, c'è una transizione tra q4 e q0, ed è contrassegnata dal valore 0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q4 E Q0 *</pattern>
+        <template>Si, c'è una transizione tra q4 e q0, ed è contrassegnata dal valore 0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern> DA Q4 A Q1 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q1.</template>
+    </category>
+    <category>
+        <pattern>* Q4 E Q1 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q1.</template>
+    </category>
+    <category>
+        <pattern>* Q4 * Q1 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q1.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q4 * Q1 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q1.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q4 E Q1 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q1.</template>
+    </category>
+    <category>
+        <pattern> DA Q4 A Q2 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q2.</template>
+    </category>
+    <category>
+        <pattern>* Q4 E Q2 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q2.</template>
+    </category>
+    <category>
+        <pattern>* Q4 * Q2 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q2.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q4 * Q2 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q2.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q4 E Q2 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q2.</template>
+    </category>
+    <category>
+        <pattern> DA Q4 A Q3 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q3.</template>
+    </category>
+    <category>
+        <pattern>* Q4 E Q3 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q3.</template>
+    </category>
+    <category>
+        <pattern>* Q4 * Q3 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q3.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q4 * Q3 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q3.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q4 E Q3 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q3.</template>
+    </category>
+    <category>
+        <pattern> DA Q4 A Q4 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q4.</template>
+    </category>
+    <category>
+        <pattern>* Q4 E Q4 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q4.</template>
+    </category>
+    <category>
+        <pattern>* Q4 * Q4 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q4.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q4 * Q4 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q4.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONE * Q4 E Q4 *</pattern>
+        <template>No, non c'è una transizione tra q4 e q4.</template>
+    </category>
+    <category>
+        <pattern> DA Q0 A *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* Q0 E *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* Q0 *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONI * Q0 *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* TRANSAZIONE * Q0 *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern> DA Q1 A *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* Q1 E *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* Q1 *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONI * Q1 *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* TRANSAZIONE * Q1 *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern> DA Q2 A *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* Q2 E *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* Q2 *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONI * Q2 *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* TRANSAZIONE * Q2 *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern> DA Q3 A *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* Q3 E *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* Q3 *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONI * Q3 *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* TRANSAZIONE * Q3 *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern> DA Q4 A *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* Q4 E *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* Q4 *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* TRANSIZIONI * Q4 *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* TRANSAZIONE * Q4 *</pattern>
+        <template>No, non c'è una transizione tra i due stati.</template>
+    </category>
+    <category>
+        <pattern>* ESISTE * Q0 *</pattern>
+        <template>Lo stato q0 esiste.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* ESISTE * Q1 *</pattern>
+        <template>Lo stato q1 esiste.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* ESISTE * Q2 *</pattern>
+        <template>Lo stato q2 esiste.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* ESISTE * Q3 *</pattern>
+        <template>Lo stato q3 esiste.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* ESISTE * Q4 *</pattern>
+        <template>Lo stato q4 esiste.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* ESISTE UNO STATO INIZIALE *</pattern>
+        <template>Lo stato iniziale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement></template>
+    </category>
+    <category>
+        <pattern>* ESISTE UNO STATO FINALE *</pattern>
+        <template>Lo stato finale è q0.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* ESISTE *</pattern>
+        <template>No, non esiste</template>
+    </category>
+    <category>
+        <pattern>* CHE COS È * Q0 *</pattern>
+        <template>Lo stato q0 è uno stato dell'automa. È sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* COSA È * Q0 *</pattern>
+        <template>Lo stato q0 è uno stato dell'automa. È sia lo stato iniziale che lo stato finale.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* CHE COS È * Q1 *</pattern>
+        <template>Lo stato q1 è uno stato dell'automa.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* COSA È * Q1 *</pattern>
+        <template>Lo stato q1 è uno stato dell'automa.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* CHE COS È * Q2 *</pattern>
+        <template>Lo stato q2 è uno stato dell'automa.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* COSA È * Q2 *</pattern>
+        <template>Lo stato q2 è uno stato dell'automa.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* CHE COS È * Q3 *</pattern>
+        <template>Lo stato q3 è uno stato dell'automa.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* COSA È * Q3 *</pattern>
+        <template>Lo stato q3 è uno stato dell'automa.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* CHE COS È * Q4 *</pattern>
+        <template>Lo stato q4 è uno stato dell'automa.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* COSA È * Q4 *</pattern>
+        <template>Lo stato q4 è uno stato dell'automa.<svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement><image>automi/automa.svg</image></template>
+    </category>
+    <category>
+        <pattern>* CHE COS È *</pattern>
+        <template>Non fa parte del'automa.</template>
+    </category>
+    <category>
+        <pattern>* COSA È *</pattern>
+        <template>Non fa parte del'automa.</template>
+    </category>
+    <category>
+        <pattern>* STATI *</pattern>
+        <template>Questo automa ha 5 stati.</template>
+    </category>
+    <category>
+        <pattern>* STATO *</pattern>
+        <template>Questo automa ha 5 stati.</template>
+    </category>
+</aiml>

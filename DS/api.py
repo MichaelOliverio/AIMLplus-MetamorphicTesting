@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import os
 import torch
@@ -21,14 +21,6 @@ import re
 load_dotenv()
 
 app = FastAPI(title="NoVAGraphS-Pepper API")
-
-# Verifica AIML
-test_folder = "./aiml_data"
-if not os.path.exists(os.path.abspath(test_folder)):
-    raise RuntimeError("AIML non trovati/o")
-
-parser = AIMLParser()
-parser.load_from_folder(test_folder)
 
 # CUDA check
 cuda = torch.cuda.is_available()
@@ -57,8 +49,6 @@ else:
 
 # NLU e DM
 nlu = NLU(frame_extractor)
-dm = DM(parser.categories, uncertainty_threshold=0.3)
-
 
 # ========================
 # Utilità per frame automa
@@ -80,7 +70,13 @@ def carica_automa_da_svg(nome_file: str, layer_id: str = "layer1") -> dict:
     Returns:
         automa: dict con struttura dati dell'automa
     """
-    tree = ET.parse(nome_file)
+    try:
+        tree = ET.parse(nome_file)
+    except FileNotFoundError:
+        raise HTTPException(status_code=404, detail=f"File SVG '{nome_file}' non trovato")
+    except ET.ParseError:
+        raise HTTPException(status_code=400, detail=f"File SVG '{nome_file}' non valido")
+
     root = tree.getroot()
 
     # Trova il layer contenente l'automa
@@ -210,8 +206,6 @@ def filtra_automa(automa: dict, ids: List[str]) -> dict:
 
     return frame
 
-
-
 def merge_frames(frame1: dict, frame2: dict) -> dict:
     """
     Unisce due frame di automa:
@@ -268,13 +262,13 @@ def merge_frames(frame1: dict, frame2: dict) -> dict:
 
     return merged
 
-
 # ========================
 # Schema input/output
 # ========================
 class ChatRequest(BaseModel):
     user_input: str
     query: Optional[List[str]] = None
+    file_name: str
 
 class SvgElement(BaseModel):
     style_name: Optional[str] = None
@@ -288,16 +282,28 @@ class ChatResponse(BaseModel):
     image: Optional[str] = None
 
 # ========================
-# Caricamento automa SVG
-# ========================
-nome_file_svg = "automa.svg"
-automa = carica_automa_da_svg(nome_file_svg)
-
-# ========================
 # Endpoint API
 # ========================
 @app.post("/chat", response_model=ChatResponse)
 def chat(request: ChatRequest):
+    nome_file_svg = f"./svg_files/{request.file_name}.svg"
+    if not os.path.exists(nome_file_svg):
+        raise HTTPException(status_code=404, detail=f"File SVG '{nome_file_svg}' non trovato")
+
+    automa = carica_automa_da_svg(nome_file_svg)
+    print("automa caricato")
+
+    aiml_path = f"./aiml_data/{request.file_name}.aiml"
+    if not os.path.exists(aiml_path):
+        raise HTTPException(status_code=404, detail=f"File AIML '{aiml_path}' non trovato")
+
+    parser = AIMLParser()
+    parser.load_from_aiml(aiml_path)
+    print("AIML caricati")
+
+    dm = DM(parser.categories, uncertainty_threshold=0)
+    print("DM inizializzato")
+
     # Estrazione NLU
     nlu_output = nlu.extraction(request.user_input, model, False)
     #nlu_output = {

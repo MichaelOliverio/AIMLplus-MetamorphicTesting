@@ -6,7 +6,7 @@
         </acts>
         <frame></frame>
         <template>
-            The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 e q4. q0 is both the initial and the final state.Le transizioni sono: q0 with value 1 goes goes q1, q1 with value 1 goes goes q2, q2 with value 0 goes goes q3, q3 with value 0 goes goes q4, q4 with value 0 goes to q0.
+            The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 e q4. q0 is both the initial and the final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.
             <image>automi/automa.svg</image>
         </template>
     </category>
@@ -16,7 +16,7 @@
         </acts>
         <frame></frame>
         <template>
-            The automaton has 5 states: q0, q1, q2, q3 e q4.
+            The automaton has 5 states: q0, q1, q2, q3 and q4.
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement>
@@ -31,7 +31,7 @@
         </acts>
         <frame></frame>
         <template>
-            The automaton has 5 transitions: q0 con valore 1 va in q1, q1 con valore 1 va in q2, q2 con valore 0 va in q3, q3 con valore 0 va in q4, q4 con valore 0 va in q0.
+            The automaton has 5 transitions: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement>

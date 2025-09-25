@@ -32,7 +32,7 @@
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="transizione-q4-q0-4">
     <inkscape:grid
        id="grid1"
        units="mm"
@@ -111,6 +111,30 @@
        id="path-effect4"
        is_visible="true"
        lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="DartArrow-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6-2" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28-7"
+       is_visible="true"
+       lpeversion="1" />
   </defs>
   <g
      inkscape:label="automa1"
@@ -145,6 +169,36 @@
            id="tspan12"
            x="80.43042"
            y="93.444275">q4</tspan></text>
+    </a>
+    <a
+       id="stato-q5"
+       inkscape:label="stato-q5"
+       transform="translate(20.754954,-31.832142)">
+      <title
+         id="title20-2">stato-q5</title>
+      <ellipse
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.337824;stroke-opacity:1"
+         id="simbolo-q5"
+         cx="82.498711"
+         cy="92.618782"
+         rx="12.332669"
+         ry="12.331268"
+         inkscape:label="simbolo-q5">
+        <title
+           id="title8-5">simbolo-q5</title>
+      </ellipse>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.358;stroke-opacity:1"
+         x="80.43042"
+         y="93.444275"
+         id="nome-q5"
+         inkscape:label="nome-q5"><title
+           id="title15-1">nome-q5</title><tspan
+           sodipodi:role="line"
+           id="tspan12-7"
+           x="80.43042"
+           y="93.444275">q5</tspan></text>
     </a>
     <a
        id="stato-q3"
@@ -207,11 +261,11 @@
            y="58.386993">q2</tspan></text>
     </a>
     <a
-       id="stato-q1-finale"
-       inkscape:label="stato-q1-finale"
+       id="stato-q1"
+       inkscape:label="stato-q1"
        transform="translate(4.8587989e-8,-4.8947917)">
       <title
-         id="title23">stato-q1-finale</title>
+         id="title23">stato-q1</title>
       <ellipse
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.337824;stroke-opacity:1"
          id="simbolo-q1"
@@ -236,24 +290,12 @@
            style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.358"
            x="100.54166"
            y="38.232292">q1</tspan></text>
-      <ellipse
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.310775;stroke-opacity:1"
-         id="simbolo-q0-0"
-         cx="67.514435"
-         cy="57.501781"
-         rx="11.347157"
-         ry="11.341972"
-         inkscape:label="simbolo-q1"
-         transform="translate(-4.8587989e-8,4.8947917)">
-        <title
-           id="title4-8">simbolo-q0</title>
-      </ellipse>
     </a>
     <a
-       id="stato-q0"
-       inkscape:label="stato-q0">
+       id="stato-q0-finale"
+       inkscape:label="stato-q0-finale">
       <title
-         id="title21">stato-q0</title>
+         id="title21">stato-q0-finale</title>
       <ellipse
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.337824;stroke-opacity:1"
          id="simbolo-q0"
@@ -264,6 +306,17 @@
          inkscape:label="simbolo-q0">
         <title
            id="title4">simbolo-q0</title>
+      </ellipse>
+      <ellipse
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.310775;stroke-opacity:1"
+         id="simbolo-q0-0"
+         cx="67.514435"
+         cy="57.501781"
+         rx="11.347157"
+         ry="11.341972"
+         inkscape:label="simbolo-q0">
+        <title
+           id="title4-8">simbolo-q0</title>
       </ellipse>
       <text
          xml:space="preserve"
@@ -277,31 +330,63 @@
            id="tspan9">q0</tspan></text>
     </a>
     <a
-       id="transizione-q4-q0"
-       inkscape:label="transizione-q4-q0">
+       id="transizione-q4-q5"
+       inkscape:label="transizione-q4-q5">
       <title
-         id="title38">transizione-q4-q0</title>
+         id="title38">transizione-q4-q5</title>
       <path
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.358;stroke-opacity:1;marker-end:url(#DartArrow)"
          d="M 75.406249,77.059895 C 74.665367,75.697762 74.023703,74.281676 73.48802,72.826562 73.003216,71.509654 72.605195,70.160805 72.297395,68.791666"
          id="simbolo-q4-q0"
          inkscape:path-effect="#path-effect28"
          inkscape:original-d="M 75.406249,77.059895 C 74.855035,75.69288 74.171526,74.259722 73.48802,72.826562 72.804514,71.393401 72.69427,70.13663 72.297395,68.791666"
-         inkscape:label="simbolo-q4-q0"
-         transform="matrix(1.0569743,0,0,0.75558734,-4.1928555,18.760348)">
+         inkscape:label="simbolo-q4-q5"
+         transform="matrix(-2.5631574,0,0,0.76114036,276.5735,15.913817)">
         <title
-           id="title28"
-           style="marker-end:url(#DartArrow)">simbolo-q4-q0</title>
+           id="title28">simbolo-q4-q5</title>
       </path>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.358;stroke-opacity:1"
-         x="69.210274"
-         y="75.584908"
-         id="valore-q4-q0"
-         inkscape:label="valore-q4-q0"><tspan
+         x="89.715485"
+         y="74.658859"
+         id="valore-q4-q5"
+         inkscape:label="valore-q4-q5"><tspan
            sodipodi:role="line"
-           id="tspan41">0</tspan></text>
+           id="tspan41"
+           x="89.715485"
+           y="74.658859">0</tspan></text>
+    </a>
+    <a
+       id="transizione-q5-q0"
+       inkscape:label="transizione-q5-q0"
+       transform="matrix(3.1823239,0,0,-0.64072811,-149.27473,106.82407)">
+      <title
+         id="title38-2">transizione-q5-q0</title>
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.358;stroke-opacity:1;marker-end:url(#DartArrow-5)"
+         d="M 75.406249,77.059895 C 74.665367,75.697762 74.023703,74.281676 73.48802,72.826562 73.003216,71.509654 72.605195,70.160805 72.297395,68.791666"
+         id="simbolo-q5-q0"
+         inkscape:path-effect="#path-effect28-7"
+         inkscape:original-d="M 75.406249,77.059895 C 74.855035,75.69288 74.171526,74.259722 73.48802,72.826562 72.804514,71.393401 72.69427,70.13663 72.297395,68.791666"
+         inkscape:label="simbolo-q5-q0"
+         transform="matrix(1.0569743,0,0,0.75558734,-4.1928555,18.760348)">
+        <title
+           id="title28-2">simbolo-q5-q0</title>
+      </path>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:2.92785px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.270108;stroke-opacity:1"
+         x="176.40933"
+         y="34.650246"
+         id="valore-q5-q0"
+         inkscape:label="valore-q5-q0"
+         transform="scale(0.41812159,2.3916488)"><tspan
+           sodipodi:role="line"
+           id="tspan41-1"
+           x="176.40933"
+           y="34.650246"
+           style="stroke-width:0.270108">0</tspan></text>
     </a>
     <a
        id="transizione-q3-q4"

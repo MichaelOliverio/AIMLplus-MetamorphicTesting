@@ -71,7 +71,7 @@ class PolicyManager:
                 dialogue_acts_list=None,
                 frame=None,
                 correctedFrame=None,
-                template="Potresti essere più specifico?",
+                template="Could you be more specific?",
             ), -1          
             
         
@@ -82,7 +82,9 @@ class PolicyManager:
         """
         categories = []
         for category in self.categories:
-            if (category.intent == context.get("intent") or category.intent == None) and (category.argument == context.get("argument") or category.argument == None): # and self.match_dialogue_acts(category.dialogue_acts_list, context, state):
+            if context.get("argument") is None:
+                categories.append(category)
+            elif (category.intent == context.get("intent") or category.intent == None) and (category.argument == context.get("argument") or category.argument == None): # and self.match_dialogue_acts(category.dialogue_acts_list, context, state):
                 categories.append(category)
 
         return categories

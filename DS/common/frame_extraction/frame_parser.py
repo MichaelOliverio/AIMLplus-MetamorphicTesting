@@ -20,6 +20,50 @@ class FrameParser:
             'sv' : 'slot_values'
         }
 
+        arguments = [
+            'alphabet',
+            'automaton',
+            'language',
+            'state',
+            'transition',
+            'pattern',
+        ]
+
+        dialogue_acts = [
+            #'AutoF:autoNegative',
+            #'DS:opening',
+            #'DS:suggest',
+            #'OCM:selfCorrection',
+            #'SOM:initGoodbye',
+            #'SOM:returnGreeting',
+            #'SOM:thanking',
+            #'Ta:answer',
+            #'Ta:checkQuestion',
+            'Ta:propositionalQuestion',
+            'Ta:request',
+            #'Ta:setQuestion',
+            #'TuM:turnAccept',
+        ]
+        
+        slot_names = {
+            'alphabet': 'list',
+            'input': 'str',
+            'output': 'str',
+            'numberOfStates': 'str',
+            'numberOfFinalStates': 'str',
+            'states': 'list',
+            'initialState': 'str',
+            'finalStates': 'list',
+            'numberOfTransitions': 'str',
+            'transition': 'triple_list',
+            'automatonType': 'str',
+            'languageType': 'str',
+            'graphicRepresentation': 'str',
+            'optimalSpatialRepresentation': 'str',
+            'stateWithMostTransitions': 'str',
+            'stateWithoutTransitions': 'str',
+        }
+
         result = {}
 
         convertedOutput = ast.literal_eval(output_text)
@@ -50,50 +94,6 @@ class FrameParser:
                 'slot_names': r"'sn':\s*\[([^\]]+)\]",
                 'slot_values': r"'sv':\s*(\[[^\]]*\].*)"
             }
-            arguments = [
-                'alphabet',
-                'automaton',
-                'language',
-                'state',
-                'transition',
-                'pattern',
-            ]
-
-            dialogue_acts = [
-                'AutoF:autoNegative',
-                'DS:opening',
-                'DS:suggest',
-                #'OCM:selfCorrection',
-                'SOM:initGoodbye',
-                #'SOM:returnGreeting',
-                #'SOM:thanking',
-                'Ta:answer',
-                'Ta:checkQuestion',
-                'Ta:propositionalQuestion',
-                'Ta:request',
-                'Ta:setQuestion',
-                #'TuM:turnAccept',
-            ]
-           
-            slot_names = {
-                'alphabet': 'list',
-                'input': 'str',
-                'output': 'str',
-                'numberOfStates': 'str',
-                'numberOfFinalStates': 'str',
-                'states': 'list',
-                'initialState': 'str',
-                'finalStates': 'list',
-                'numberOfTransitions': 'str',
-                'transition': 'triple_list',
-                'automatonType': 'str',
-                'languageType': 'str',
-                'graphicRepresentation': 'str',
-                'optimalSpatialRepresentation': 'str',
-                'stateWithMostTransitions': 'str',
-                'stateWithoutTransitions': 'str',
-            }
-
 
             result = {}
 
@@ -120,29 +120,29 @@ class FrameParser:
                 else:
                     result[key] = None
 
-            # post-processing
-            if result['dialogue_act'] and result['dialogue_act'].lower() not in [d.lower() for d in dialogue_acts]:
-                if 'prop' in result['dialogue_act'].lower():
-                    result['dialogue_act'] = 'Ta:propositionalQuestion'
-                else:
-                    result['dialogue_act'] = 'Ta:request'
+        # post-processing
+        if result['dialogue_act'] and result['dialogue_act'].lower() not in [d.lower() for d in dialogue_acts]:
+            if 'prop' in result['dialogue_act'].lower():
+                result['dialogue_act'] = 'Ta:propositionalQuestion'
+            else:
+                result['dialogue_act'] = 'Ta:request'
 
-            if result['argument'] and result['argument'].lower() not in [a.lower() for a in arguments]:
-                arg_lower = result['argument'].lower()
-                if 'alph' in arg_lower:
-                    result['argument'] = 'alphabet'
-                elif 'auto' in arg_lower:
-                    result['argument'] = 'automaton'
-                elif 'lang' in arg_lower:
-                    result['argument'] = 'language'
-                elif 'stat' in arg_lower:
-                    result['argument'] = 'state'
-                elif 'tran' in arg_lower:
-                    result['argument'] = 'transition'
-                elif 'patt' in arg_lower:
-                    result['argument'] = 'pattern'
-                else:
-                    result['argument'] = None
+        if result['argument'] and result['argument'].lower() not in [a.lower() for a in arguments]:
+            arg_lower = result['argument'].lower()
+            if 'alph' in arg_lower:
+                result['argument'] = 'alphabet'
+            elif 'auto' in arg_lower:
+                result['argument'] = 'automaton'
+            elif 'lang' in arg_lower:
+                result['argument'] = 'language'
+            elif 'stat' in arg_lower:
+                result['argument'] = 'state'
+            elif 'tran' in arg_lower:
+                result['argument'] = 'transition'
+            elif 'patt' in arg_lower:
+                result['argument'] = 'pattern'
+            else:
+                result['argument'] = None
 
         if result['argument']:
             result['argument'] = result['argument'].lower()
@@ -151,20 +151,22 @@ class FrameParser:
             'fsa-theoretical',
             'fsa-practical',
         ]
-        
-        if result['intent'] and result['intent'].lower() not in [i.lower() for i in intent]:
-            intent_lower = result['intent'].lower()
-            if 'the' in intent_lower:
-                result['intent'] = 'fsa-practical' # di base mettere theroetical
-            elif 'prac' in intent_lower:
-                result['intent'] = 'fsa-practical'
-            elif result['dialogue_act'] == 'Ta:request':
-                result['intent'] = 'fsa-practical'
-            else:
-                result['intent'] = None
 
-        if result['intent'] == 'fsa-theoretical':
-            result['intent'] = 'fsa-practical'
+        result['intent'] = 'fsa-practical'
+        
+        #if result['intent'] and result['intent'].lower() not in [i.lower() for i in intent]:
+        #    intent_lower = result['intent'].lower()
+        #    if 'the' in intent_lower:
+        #        result['intent'] = 'fsa-practical' # di base mettere theroetical
+        #    elif 'prac' in intent_lower:
+        #        result['intent'] = 'fsa-practical'
+        #    elif result['dialogue_act'] == 'Ta:request':
+        #        result['intent'] = 'fsa-practical'
+        #    else:
+        #        result['intent'] = None
+
+        #if result['intent'] == 'fsa-theoretical':
+        #    result['intent'] = 'fsa-practical'
 
         result = FrameParser.convert_tuples_to_lists(result)
         return result

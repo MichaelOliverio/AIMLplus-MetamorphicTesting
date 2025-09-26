@@ -306,6 +306,8 @@ def chat(request: ChatRequest):
 
     # Estrazione NLU
     nlu_output = nlu.extraction(request.user_input, model, False)
+    print("NLU output:", nlu_output)
+
     #nlu_output = {
     #    'user_input': 'tell me about automaton',
     #    'intent': 'fsa-practical',
@@ -313,6 +315,19 @@ def chat(request: ChatRequest):
     #    'dialogue_act': 'Ta:request',
     #    'frame': {'states':['?'], 'transitions':  [['q1','q2','?']]}
     #}
+
+    #nlu_output = {
+    #    "user_input": "tell me about this",
+    #    "intent": "fsa-practical",
+    #    "argument": None,
+    #    "dialogue_act": "AutoF:autoNegative",
+    #    "frame": {
+    #        "states": [
+    #            "q1"
+    #        ]
+    #    },
+    #}
+
     # Merge frame con query (se presente)
     if request.query:
         frame_from_query = filtra_automa(automa, request.query)

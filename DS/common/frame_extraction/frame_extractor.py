@@ -24,6 +24,14 @@ class FrameExtractor:
                 for i, slot_name in enumerate(parsed_output['slot_names']):
                     if i < len(parsed_output['slot_values']):
                         frame[slot_name] = parsed_output['slot_values'][i]
+
+             # --- controllo specifico per 'transitions' ---
+            if 'transitions' in frame:
+                if isinstance(frame['transitions'], str):
+                    frame['transitions'] = []
+                elif not isinstance(frame['transitions'], list):
+                    frame['transitions'] = []
+
         else:
             intent = None
             argument = None

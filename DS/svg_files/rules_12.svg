@@ -7,7 +7,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg1"
-   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
    sodipodi:docname="automa.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,14 +25,14 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="2"
-     inkscape:cx="394"
-     inkscape:cy="264.75"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:cx="342.75"
+     inkscape:cy="176.25"
+     inkscape:window-width="2560"
+     inkscape:window-height="1334"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="transizione-q1-q2">
     <inkscape:grid
        id="grid1"
        units="mm"
@@ -300,7 +300,9 @@
          id="valore-q4-q0"
          inkscape:label="valore-q4-q0"><tspan
            sodipodi:role="line"
-           id="tspan41">0</tspan></text>
+           id="tspan41"
+           x="69.210274"
+           y="75.584908">5</tspan></text>
     </a>
     <a
        id="transizione-q3-q4"
@@ -327,7 +329,9 @@
          id="valore-q3-q4"
          inkscape:label="valore-q3-q4"><tspan
            sodipodi:role="line"
-           id="tspan42">0</tspan></text>
+           id="tspan42"
+           x="101.22485"
+           y="98.471359">4</tspan></text>
     </a>
     <a
        id="transizione-q2-q3"
@@ -354,7 +358,9 @@
          id="valore-q2-q3"
          inkscape:label="valore-q2-q3"><tspan
            sodipodi:role="line"
-           id="tspan43">0</tspan></text>
+           id="tspan43"
+           x="136.41444"
+           y="77.040115">3</tspan></text>
     </a>
     <a
        id="transizione-q1-q2"
@@ -383,7 +389,7 @@
            sodipodi:role="line"
            id="tspan33-9"
            x="130.5936"
-           y="37.749493">1</tspan></text>
+           y="37.749493">2</tspan></text>
     </a>
     <a
        id="transizione-q0-q1"

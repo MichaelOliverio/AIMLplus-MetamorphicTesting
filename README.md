@@ -1,35 +1,35 @@
-# Guida all'installazione e configurazione
+# Installation guide and configuration
 
-## 1. Configurazione file `.env`
-Nella cartella `DS`:
-- Copiare il file `.env.example`
-- Rinominarlo in `.env`
-- Aggiungere la stessa chiave di Hugging Face sia a:
+## 1. Configuration file `.env`
+In the folder `DS`:
+- Copy the file `.env.example`
+- Rename it into `.env`
+- Add the same key of Hugging Face both to:
   - `HUGGINGFACE_API_KEY`
   - `HUGGINGFACE_FINE_TUNING_LLM_KEY`
 
 ---
 
-## 2. Installazione librerie
-Le librerie necessarie sono elencate nel file `requirements.txt`.
+## 2. Installing libs
+All the necessaries libs are listed in `requirements.txt`.
 
-Per installarle:
+To install them:
 ```bash
 pip install -r requirements.txt
 ````
 
-### Consiglio: creare un ambiente virtuale
+### Tip: create a virtual enviroment
 
-Per evitare conflitti con altre librerie, si consiglia di lavorare in un ambiente virtuale.
+To avoid conflicts it is suggested to work in a virtual enviroment
 
-* Su **Windows**:
+*  **Windows**:
 
   ```bash
   python -m venv venv
   venv\Scripts\activate
   ```
 
-* Su **Linux/Mac**:
+*  **Linux/Mac**:
 
   ```bash
   python3 -m venv venv
@@ -38,23 +38,23 @@ Per evitare conflitti con altre librerie, si consiglia di lavorare in un ambient
 
 ---
 
-## 3. Problemi comuni con PyTorch
+## 3. PyTorch common problems
 
-Alla prima esecuzione di:
+At the first execution of:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-potrebbero verificarsi errori legati a **PyTorch** (specialmente per il supporto GPU).
+there could be some issues with **PyTorch** (expecially to support GPU).
 
-In questo caso, installare manualmente la versione corretta di PyTorch (nel mio caso la 12.1, ho una RTX 4050):
+In this case, manually install the right version of PyTorch (in my case the 12.1, I'm using a RTX 4050):
 
 ```bash
 pip install torch==2.5.1+cu121 torchvision==0.20.1+cu121 torchaudio==2.5.1+cu121 --index-url https://download.pytorch.org/whl/cu121
 ```
 
-Dopo aver installato correttamente PyTorch, rilanciare:
+After having installed PyTorch correctly, re-execute:
 
 ```bash
 pip install -r requirements.txt
@@ -62,6 +62,6 @@ pip install -r requirements.txt
 
 ---
 
-Esecuzione del servizio:
-1. eseguire il comando "cd DS" da terminale
-2. eseguire il comando "uvicorn api:app --reload"
+To execute the service:
+1. From terminal: "cd DS"
+2. Then execute command "uvicorn api:app --reload"

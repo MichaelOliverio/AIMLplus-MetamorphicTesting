@@ -1,0 +1,666 @@
+3; Between q2 and q0 there is a transition
+3; A transition between q2 and q0 there is
+4; Between q5 and q7 there is a transition
+4; A transition between q5 and q7 there is
+5; Please describe it
+6; The automaton, how many transitions does it contain
+6; How many transitions does it contain, the automaton
+7; Among them there is a particular pattern
+7; A particular pattern there is among them
+8; The alphabet, what is
+8; What is the alphabet
+9; The transitions, what are
+9; What are the transitions
+10; The states, what are
+10; What are the states
+11; Q1, what is
+11; What is q1
+12; States and edges, how many
+12; How many states and edges
+13; Directed, is it
+13; Is it directed
+14; The automaton, how is it represented
+14; How is it represented, the automaton
+15; Cycles, has it
+15; Has it cycles
+16; The automaton, describe
+16; Describe the automaton
+17; A language allowing words made of an odd number of 0s and 1s, the automaton accepts
+17; The automaton accepts a language allowing words made of an odd number of 0s and 1s
+18; Possible repetitive pattern in the transactions, is it
+18; Is it possible repetitive pattern in the transactions
+19; The language accepted by the automaton is the same if q2 is the final state
+19; If q2 is the final state, the language accepted by the automaton is the same
+20; The automaton, briefly describe
+20; Briefly describe the automaton
+21; 1s and 0s only, does it accept
+21; Does it only accept 1s and 0s
+22; The automaton, how is it represented
+22; How is the automaton represented
+23; The arrows, how about
+23; And how about the arrows
+24; The initial state, which is
+24; Which is the initial state
+25; Five states then, does it have
+25; Does it have 5 states then
+26; How many states are there
+26; There are how many states
+27; A list of the arcs, give me
+27; Give me a list of the arcs
+28; From q0 to q1, is there an arc
+28; Is there an arc from q0 to q1
+29; The shape of the arcs, what is
+29; What is the shape of the arcs
+30; From q0 to q2 q3 or q4, is there an arc
+30; Is there an arc from q0 to q2 q3 or q4
+31; From q1, which are the transitions
+31; Which are the transitions from q1
+32; From q2, which are the transitions
+32; Which are the transitions from q2
+33; From q3, which are the transitions
+33; Which are the transitions from q3
+34; From q4, which are the transitions
+34; Which are the transitions from q4
+35; The purpose of the automaton, what is
+35; What is the purpose of the automaton
+36; When a 0 comes to state q1, what happens
+36; What happens when a 0 comes to state q1
+37; States, how many do you have
+37; How many states do you have
+38; Your states, how are they linked together
+38; How are your states linked together
+39; To q0, is q0 linked
+39; Is q0 linked to q0
+40; To q4, is q1 linked
+40; Is q1 linked to q4
+41; From q4, what are the transitions
+41; What are the transitions from q4
+42; The links of q4, what are
+42; What are the links of q4
+43; From q4, what are the transitions
+43; What are the transitions from q4
+44; To q0, is q4 linked
+44; Is q4 linked to q0
+45; The automaton, can you describe me
+45; Can you describe me the automaton
+46; The automaton, could you briefly describe
+46; Could you briefly describe the automaton
+47; How many states are there
+47; There are how many states
+48; From q0 to q1, is there an arc
+48; Is there an arc from q0 to q1
+49; From q1 to q2, is there an arc
+49; Is there an arc from q1 to q2
+50; Connected to q0, what are the states
+50; What are the states connected to q0
+51; From q2 to q3, is there an arc
+51; Is there an arc from q2 to q3
+52; From q3 to q4, is there an arc
+52; Is there an arc from q3 to q4
+53; From q4 to q0, is there an arc
+53; Is there an arc from q4 to q0
+54; From q4, is there an arc
+54; Is there an arc from q4
+55; From q0, is there an arc
+55; Is there an arc from q0
+56; From q1, is there an arc
+56; Is there an arc from q1
+57; From q2, is there an arc
+57; Is there an arc from q2
+58; From q3, is there an arc
+58; Is there an arc from q3
+59; The automaton, how many states does it have
+59; How many states does the automaton have
+60; Loops, are there any
+60; Are there any loops
+61; Enter and exit q0, what transitions
+61; What transitions enter and exit q0
+62; Enter and exit q1, what transitions
+62; What transitions enter and exit q1
+63; Enter and exit q2, what transitions
+63; What transitions enter and exit q2
+64; Enter and exit q4, what transitions
+64; What transitions enter and exit q4
+65; Enter and exit q3, what transitions
+65; What transitions enter and exit q3
+66; The automaton, what does it recognize
+66; What does the automaton recognize
+67; The accepted language, what is
+67; What is the accepted language
+68; How many states are there
+68; There are how many states
+69; How many transitions are there
+69; There are how many transitions
+70; A particular pattern, is there
+70; Is there a particular pattern
+71; How many nodes are there
+71; There are how many nodes
+72; The initial state, which is
+72; Which is the initial state
+73; How many states
+73; States, how many
+74; The automaton, please describe
+74; Please describe the automaton
+75; A representation of the automaton, can you provide
+75; Can you provide a representation of the automaton
+76; Graphically automaton, describe
+76; Describe graphically automaton
+77; Some examples of inputs and output, give me
+77; Give me some examples of inputs and output
+78; Some examples of inputs, can you provide me
+78; Can you provide me some examples of inputs
+79; The initial state, which is
+79; Which is the initial state
+80; The input and the output, can you describe
+80; Can you describe the input and the output
+81; The transition function, can you describe
+81; Can you describe the transition function
+82; The output, what is
+82; What is the output
+83; About transitions, talk me
+83; Talk me about transitions
+84; The accepted language, what is
+84; What is the accepted language
+85; The result, what is
+85; What is the result
+86; Output
+86; Output
+87; The initial state, which is
+87; Which is the initial state
+88; Optimization, what is
+88; What is optimization
+89; Automation, what is
+89; What is automation
+90; States, how many
+90; How many states
+91; The input symbols, what are
+91; What are the input symbols
+92; The automaton, can you describe
+92; Can you describe the automaton
+93; The automaton, how is it represented
+93; How is the automaton represented
+94; Transitions, how are they defined
+94; How are transitions defined
+95; The transitions, can you describe
+95; Can you describe the transitions
+96; The transitions, can you describe
+96; Can you describe the transitions
+97; If the input is 11100, which is the result
+97; Which is the result if the input is 11100
+98; If the input is 110, which is the result
+98; Which is the result if the input is 110
+99; The automaton, can you describe
+99; Can you describe the automaton
+100; The accepted inputs, what are
+100; What are the accepted inputs
+101; The accepted language, what is
+101; What is the accepted language
+102; Part of the accepted language, is 11100
+102; Is 11100 part of the accepted language
+103; In the automaton, how many transitions are there
+103; How many transitions are there in the automaton
+104; Among the arcs, is there a particular pattern
+104; Is there a particular pattern among the arcs
+105; From q0 to q5, is there a transition
+105; Is there a transition from q0 to q5
+106; The transictions, what are all
+106; What are all the transictions
+107; The transitions, please describe
+107; Please describe the transitions
+108; The final state, is q0
+108; Is q0 the final state
+109; Automaton 1, how many states does it have
+109; How many states does Automaton 1 have
+110; The automata, how many transitions does it have
+110; How many transitions does the automata have
+111; The transitions of the automaton, show me
+111; Show me the transitions of the automaton
+112; The automaton, what transitions does it have
+112; What transitions does the automaton have
+113; The automaton, describe
+113; Describe the automaton
+114; The automaton, briefly describe
+114; Briefly describe the automaton
+115; The automaton, briefly describe
+115; Briefly describe the automaton
+116; States, how many are there
+116; How many states are there
+117; Arcs, how many there are
+117; How many arcs there are
+118; A particular pattern, is there
+118; Is there a particulare pattern
+119; Between q2 and q0, are there arcs
+119; Are there arcs between q2 and q0
+120; From q4, are there arcs
+120; Are there arcs from q4
+121; From q4, are there arcs
+121; Are there arcs from q4
+122; The final states, what are
+122; What are the final states
+123; Final states, how many are there
+123; How many final states there are
+124; A final state, is q0
+124; Is q0 a final state
+125; A final state, is q4
+125; Is q4 a final state
+126; The final states, which are
+126; Which are the final states
+127; The final state, which is
+127; Which is the final state
+128; The final states, how many are there
+128; How many final states are there
+129; States, how many are there
+129; How many states are there
+130; Transitions, how many are there
+130; How many transitions are there
+131; Among them, there is a particular pattern
+131; There is a particular pattern among them
+132; From q0 to q5, is there a transition
+132; Is there a transition from q0 to q5
+133; Its optimal spatial representation, what is
+133; What is its optimal spatial representation
+134; The automaton, briefly describe you
+134; Briefly describe you the automaton
+135; A language allowing words made of an odd number of 0s and 1s, the automaton accepts
+135; The automaton accepts a language allowing words made of an odd number of 0s and 1s
+136; In the transitions, it is possible to find a repetitive pattern
+136; It is possible to find a repetitive pattern in the transitions
+137; If q2 were the final state, the language accepted by the automaton is the same
+137; The language accepted by the automaton is the same if q2 were the final state
+138; Finite state automata, what can I use them for
+138; What can I use finite state automata for
+139; In an automaton, how many states can I use
+139; How many states can I use in an automaton
+140; In an automaton, can I use 5 states
+140; Can I use 5 states in an automaton
+141; The final state of an automaton, what is
+141; What is the final state of an automaton
+142; An automaton, how can I define
+142; How can I define an automaton
+143; An automaton, how is it defined
+143; How is an automaton defined
+144; The automaton, describe
+144; Describe the automaton
+145; An example of accepted string, what is
+145; What is an example of accepted string
+146; The final state, what is
+146; What is the final state
+147; From q0, which transitions start
+147; Which transitions start from q0
+148; From q0, how many transitions start
+148; How many transitions start from q0
+149; From q1, which transitions start
+149; Which transitions start from q1
+150; From q2, which transitions start
+150; Which transitions start from q2
+151; In q0, which transitions end
+151; Which transitions end in q0
+152; How many transitions are there
+152; There are how many transitions
+153; Among the arcs, is there a pattern
+153; Is there a pattern among the arcs
+154; For this automaton, what could be a minimal spatial representation
+154; What could be a minimal spatial representation for this automaton
+155; States, how many are there
+155; How many states are there
+156; Between q0 and q1, is there an arc
+156; Is there an arc between q0 and q1
+157; The transitions, which are
+157; Which are the trasitions
+158; The automaton, describe
+158; Describe the automaton
+159; The PhD, what is it for
+159; What is the phd for
+160; In an automaton, maximum number of states
+160; Maximum number of states in an automaton
+161; The automaton, how is it represented
+161; How is the automaton represented
+162; A pentagon shaped automaton, how many states does it have
+162; How many states does a pentagon shaped automaton have
+163; The automaton, briefly describe; how many states are there
+163; Briefly describe the automaton How many states are there
+164; The automaton 2, briefly describe; how many states are there
+164; Briefly describe the automaton 2 How many states are there
+165; In Automation 2, how many states are there
+165; How many states are in Automation 2
+166; How many transitions are there
+166; There are how many transitions
+167; From q0 to q5, is there a transition
+167; Is there a transition from q0 to q5
+168; According to your understanding of Automaton 2, what is its optimal spatial representation
+168; What is its optimal spatial representation according to your understanding of Automaton 2
+169;A language allowing words made of an odd number of 0s and 1s is accepted by the automaton
+169;Words made of an odd number of 0s and 1s are accepted by the automaton, a language
+170;How many states are there?
+170;There are how many states?
+171;Briefly describe the automaton
+171;Describe the automaton briefly
+172;How is the automaton represented?
+172;The automaton is how represented?
+173;Is there an arc between q0 and q1?
+173;Between q0 and q1, is there an arc?
+174;Is there an arc between q1 and q2?
+174;Between q1 and q2, is there an arc?
+175;Describe me the automaton
+175;Me, describe the automaton
+176;How many states does the automaton have?
+176;The automaton has how many states?
+177;What is the language recognized by the automaton?
+177;By the automaton, what is the language recognized?
+178;Describe me the automaton
+178;Me, describe the automaton
+179;Briefly describe the automation
+179;Describe the automation briefly
+180;How many states are there?
+180;There are how many states?
+181;How many transitions are there?
+181;There are how many transitions?
+182;What is the best way to represent this automaton?
+182;This automaton, what is the best way to represent?
+183;What is its optimal spatial representation?
+183;Its optimal spatial representation, what is it?
+184;What is the initial state?
+184;The initial state is what?
+185;What is the final state?
+185;The final state is what?
+186;What about the transitions?
+186;About the transitions, what?
+187;What language does this automaton accept?
+187;This automaton accepts what language?
+188;What is an automaton?
+188;An automaton is what?
+189;What is the initial stage of the automaton?
+189;The initial stage of the automaton is what?
+190;Briefly describe me the automaton
+190;Me, briefly describe the automaton
+191;What is the initial state of the automaton?
+191;The initial state of the automaton is what?
+192;What is the language accepted by the automaton?
+192;The language accepted by the automaton is what?
+193;Is the string 110 accepted by the automaton?
+193;By the automaton, is the string 110 accepted?
+194;Describe me the automaton
+194;Me, describe the automaton
+195;Describe the transition table of the automaton
+195;The transition table of the automaton, describe it
+196;Is there an arc from q0 to q1?
+196;From q0 to q1, is there an arc?
+197;Is there an arc from q2 to q1?
+197;From q2 to q1, is there an arc?
+198;How many states are there?
+198;There are how many states?
+199;What symbols does the automaton accept?
+199;The automaton accepts what symbols?
+200;What are the symbols accepted by the automaton?
+200;By the automaton, what symbols are accepted?
+201;What is the alphabet?
+201;The alphabet is what?
+202;How is the automaton represented?
+202;The automaton is how represented?
+205;How many states are there?
+205;There are how many states?
+207;How many regions are there in Italy?
+207;There are how many regions in Italy?
+208;In which year we are?
+208;We are in which year?
+209;In which year we are?
+209;We are in which year?
+210;It is possible to find a repetitive pattern in the transitions
+210;A repetitive pattern in the transitions, it is possible to find
+211;The automaton accepts a language allowing words made of an odd number of 0s and 1s
+211;A language allowing words made of an odd number of 0s and 1s is accepted by the automaton
+212;If q2 were the final state the language accepted by the automaton is the same
+212;The language accepted by the automaton is the same if q2 were the final state
+213;If q2 were the final state the language accepted by the automaton is the same
+213;The language accepted by the automaton is the same if q2 were the final state
+214;If q0 were the final state the language accepted by the automaton is the same
+214;The language accepted by the automaton is the same if q0 were the final state
+215;How many states has the automata?
+215;The automata has how many states?
+216;How many arcs are there in the automata?
+216;There are how many arcs in the automata?
+217;Is there a particular pattern among automata arcs?
+217;Among automata arcs, is there a particular pattern?
+218;Which is the transition function?
+218;The transition function, which is it?
+219;The accepted language, what is
+221;The automaton is how represented?
+222;The regular expression describing the automata, what is
+223;Can you describe the automata briefly?
+224;The automaton, summarise
+225;There are how many states
+226;The automaton accepts what language
+228;The automaton has what transitions
+233;Automaton 2, where is
+234;The automaton is how represented?
+235;The automaton, describe
+236;The principal pros, which are
+239;Automaton, describe
+240;The automaton, show me
+241;These are how many states
+243;The starting state, what is
+244;The states, what are
+245;Between the states, what direction are the connections
+246;The automaton, describe
+253;There are how many transitions
+256;There are how many loops
+257;There are how many states
+258;The states and the connections between states, what are
+259;The states and the transitions, what are
+260;The states and the transitions, which are
+261;The automaton is how represented?
+263;There are how many states
+265;There are how many transitions
+267;The transitions, what are
+268;The transitions, describe
+269;The arc between q0 and q2, how is it marked
+270;How is it represented
+271;The final states, what are
+272;The final states
+273;The start states
+274;The start state, which is
+275;Tell me a little bit about the automaton
+276;Tell me a little bit about the automaton
+277;There are how many states
+278;There are how many transitions
+279;There are how many transitions
+280;Among the transitions, is there a pattern
+281;From q0 to q5, is there a transition
+282;A language allowing words made of an odd number of 0s and 1s, does the automaton accept
+283;Is it possible to repeat transitions
+284;In the transitions, it is possible to find a repetitive pattern
+285;It, describe
+286;Between q4 and q0, arcs
+287;From q4, arcs
+288;The final states
+289;The final states, which are
+290;The initial state, which is
+291;The final state, which is
+292;The final state
+293;The final states
+294;From q2 to q1, arc
+295;From q3 to q4, label
+296;There are how many arcs
+297;Among arcs, pattern
+298;Describe
+299;From q2, arc
+300;From q3, transition
+301;There are how many transitions
+302;There are how many states
+303;With 0, which are the states connected
+304;With 0, what arcs are marked
+305;The arcs, what are
+306;The automaton, overview of
+307;The automaton, overview of
+308;The automaton, how is
+309;There are how many 0
+310;There are how many arcs marked by 1
+311;The patterns, what are
+312;The patterns, what are
+313;Among arc, patterns
+314;Among arcs, patterns
+315;The shape of the automaton, describe
+316;An automaton, what is
+317;Diagram, transition
+318;The transition diagram, describe
+319;In the automaton, how many transitions are there
+320;A pattern, what is
+321;Among arcs, what is a particular pattern
+322;The automaton, briefly describe
+323;The number of nodes, what s
+324;The nodes
+325;Nodes
+326;States
+327;Nodes
+328;A label for some arc, is 1
+329;The accepted language, what is
+330;Other languages, does the automaton accept
+331;q0
+332;q2
+333;To q3, q2
+334;To q2, q3
+335;To q4, q3
+336;To q0, q4
+337;To q4, q0
+338;The position of nodes, describe
+339;The arcs, describe
+340;The position of arcs, describe
+341;Any self loop, is there
+342;A connection, what is
+343;The automaton, represent
+344;There are how many states
+345;The input, what is
+346;The automaton, can you describe
+347;From q1, which arc
+348;From q2, which arc
+349;From q3, which arc
+350;From q3, which arc
+351;From q4, which arc
+352;The transitions, can you describe
+353;There are how many states
+354;The automaton, describe me
+355;How words made by 1s and 0s are used, explain
+356;The accepted language, what is
+357;There are how many arcs
+358;Among the arcs, is there a particular pattern
+359;If the automaton is in the state q3 and the input is 11100, what happens
+360;If the automaton is in the state q3 and the input is 11100, what happens
+361;The transitions, describe me
+362;The alphabet and how its used, describe me
+363;The alphabet, describe me
+364;The language accepted, describe me
+365;A word in the language accepted, what is
+366;The state q1, describe me
+367;The final state, which is
+368;From q1 to q0, can I transite
+369;As input, is 2 accepted
+370;Some questions, suggest me
+371;About the states, tell me something
+372;For helping me, thank
+373;An alc from z0 to q1
+374;You, what can I ask
+375;A DFA or NFA, is the automation
+376;The trasition function, can you describe
+377;If it read a 0 from the state q1, in which state would the automation goes
+378;Deterministic or non-deterministic, is the automation
+379;Given the deterministc nature of the automation, why is there no a transition when I am in q1 and the automation read 0
+380;Given the deterministc nature of the automation, why is there no a transition when I am in q1 and the automation read 0
+381;Of this automation, tell me a real use case
+382;In the automation, how many states are
+383;In the automaton, are there any loops
+384;Of a DFA, can you explain me what is a final state
+385;How works a transition function, can you describe to me
+386;Based on your previous answer, the binary string 111100 could be accepted by this automata
+387;The automaton has how many final states
+388;The final state, what is
+389;From the state q2, how can I reach the state q4
+390;From the state q3, is there a way to reach the state q1
+391;Some pattern, are there
+392;Between deterministic and non deterministic finite automata, explain the difference
+393;In finite automata, define the concept of an accepting state
+394;Non-regular languages, can a finite automaton recognize
+395;The transitions and the accepting states of this specific automaton, describe
+396;If the input sequence does not match the required pattern of three 1s followed by two 0s in this automaton, what happens
+397;If the input starts with a 0 instead of a 1, how does the automaton behave
+398;In the automaton's behavior, what is the role of the state q4
+399;In the behavior of automaton, what is the role of the state q4
+400;After completing a valid sequence, how does the automaton transition back to the initial state
+401;In this automaton, how many transitions are there
+402;Among the transitions in this automaton, is there a particular pattern
+403;If the input string is shorter than three 1s followed by two 0s, what happens
+404;How are you, goodmorning
+405;The automaton, describe me
+406;In automaton, how many states are
+407;In automaton, what does each state do
+408;Of the automaton, what is the starting state
+409;In the automaton, what is the role of the final state
+410;If the input does not follow the sequence of three 1s followed by two 0s, what happens
+411;From one state to another in the automaton, what triggers a transition
+412;For the automaton to reach its final state, what input pattern is required
+413;In the automaton, how many transitions are there
+414;In the automaton, which state has the most transitions
+415;In the automaton, is there any state that has no outgoing transitions
+416;Bye
+417;In this automaton, how many states are
+418;The automaton, what input causes it to move from one state to the next
+419;Which state in the automaton follows q1
+419;In the automaton which state follows q1
+420;What input causes the automaton to move to q4 from q3
+420;To q4 from q3 what input causes the automaton to move
+421;After the automaton reaches q4 what happens
+422;After every valid input sequence does the automaton return to q0
+423;By this automaton what kind of language is accepted
+424;An empty string can the automaton accept
+425;Sequences longer than three 1s followed by two 0s does the automaton accept
+426;Which state in the automaton is both the initial and the final state
+426;Which state is both the initial and the final state in the automaton
+427;For responding to me thank you
+427;To me thank you for responding
+428;What can i ask you
+428;Can i ask you what
+429;There are how many nodes
+430;Between these states what are the transitions
+431;The arcs, what are
+434;The accepted language, what is
+436;There is an alphabet
+437;Is the final node q3
+437;The final node is q3
+438;Is the final node q0
+438;The final node is q0
+439;From q0 to q1 is there a transition
+442;From q0 to q1 how many arcs start
+443;Q5 is there
+444;From q0 to q4 is there a transitions
+445;Is the last state q0
+446;Is the initial state q0
+447;Other final states are there
+448;By the automaton what input can be processed
+450;The accepted language, what is
+451;The nodes what are
+452;The states what are
+453;Q10 is there
+454;There are how many transitions
+455;Among them is there a particular pattern
+457;A deterministic automaton, what is
+458;An automaton, what is
+460;A label for some arc is 1
+462;Tell me about the automaton a little bit
+463;Of the arcs give me a list
+464;To me give the list of states
+465;There are how many states
+468;To q0 what are the states connected
+469;To q1, what are the states connected?
+470;To q2, what are the states connected?
+471;To q3, what are the states connected?
+472;To q4, what are the states connected?
+473;To q5, what are the states connected?
+474;The transition function, what is?
+475;The output, what is?
+477;Some examples of inputs and output, can you provide me?
+478;Some examples of inputs and output, give me
+479;An undefined automaton, is it?
+480;A non-deterministic finite state automaton, is it?
+481;A deterministic finite state automaton, is it?
+482;Or other things, does it only accept 1s and 0s?
+484;Between nodes, what are the paths?
+485;To yours replies, thank you

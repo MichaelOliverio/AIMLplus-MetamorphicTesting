@@ -62,7 +62,7 @@ class PolicyManager:
 
         if best_category: # and certainty_score >= self.uncertainty_threshold:
             print(f"Best category: {best_category.frame}, with score {certainty_score}")
-            return best_category, already_asked_index
+            return best_category, already_asked_index, certainty_score, best_category
         else:
             return Category(
                 id=None,
@@ -72,7 +72,7 @@ class PolicyManager:
                 frame=None,
                 correctedFrame=None,
                 template="Could you be more specific?",
-            ), -1          
+            ), -1, 0.0, None          
             
         
     def search_valid_categories(self, context, state) -> List[Category]:
@@ -138,6 +138,10 @@ class PolicyManager:
         """
         total_weight = sum(weights.get(slot, 1) for slot in set(frame1.keys()).union(frame2.keys()))
         similarity = 0
+
+ 
+        if frame1 == {} and frame2 == {}:
+            return 1.0
 
         for slot in set(frame1.keys()).union(frame2.keys()):
             weight = weights.get(slot, 1)

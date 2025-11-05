@@ -12,6 +12,7 @@ from common.frame_extraction.frame_extractor import FrameExtractor
 from common.frame_extraction.causal_lm_frame_extractor_handler import CausalLMFrameExtractorHandler
 from nlu.nlu import NLU
 from dm.dm import DM
+import ast
 
 import re
 
@@ -277,6 +278,8 @@ class SvgElement(BaseModel):
 
 class ChatResponse(BaseModel):
     nlu_output: dict
+    best_frame: dict
+    certainty_score: Optional[float]
     response: str
     svg_elements: List[SvgElement] = []
     image: Optional[str] = None
@@ -339,12 +342,87 @@ def chat(request: ChatRequest):
             nlu_output["frame"] = frame_from_query
 
     # DM
-    action, already_asked_index = dm.process_input(nlu_output)
+    action, already_asked_index, certainty_score, best_frame = dm.process_input(nlu_output)
     system_output = action.template
     dm.update_state_tracker_with_system_response(system_output)
 
+    if best_frame is not None and not isinstance(best_frame, dict):
+        best_frame = best_frame.__dict__
+
+        filtered_best_frame = {
+            "intent": best_frame.get("intent"),
+            "argument": best_frame.get("argument"),
+            "dialogue_acts_list": best_frame.get("dialogue_acts_list"),
+            "correctedFrame": best_frame.get("correctedFrame"),
+        }
+    else:
+        filtered_best_frame = {}
+
     return ChatResponse(
         nlu_output=nlu_output,
+        best_frame=filtered_best_frame,
+        certainty_score=certainty_score,
+        response=system_output,
+        svg_elements=action.svg_elements,  # presi da Category
+        image=action.image                 # preso da Category
+    )
+
+
+@app.post("/chat_nlu", response_model=ChatResponse)
+def chat(request: ChatRequest):
+    nome_file_svg = f"./svg_files/automa1.svg"
+    if not os.path.exists(nome_file_svg):
+        raise HTTPException(status_code=404, detail=f"File SVG '{nome_file_svg}' non trovato")
+
+    automa = carica_automa_da_svg(nome_file_svg)
+    print("automa caricato")
+
+    aiml_path = f"./aiml_data/{request.file_name}.aiml"
+    if not os.path.exists(aiml_path):
+        raise HTTPException(status_code=404, detail=f"File AIML '{aiml_path}' non trovato")
+
+    parser = AIMLParser()
+    parser.load_from_aiml(aiml_path)
+    print("AIML caricati")
+
+    dm = DM(parser.categories, uncertainty_threshold=0)
+    print("DM inizializzato")
+
+    # Estrazione NLU
+    nlu_output = ast.literal_eval(request.user_input)
+    print("NLU output:", nlu_output)
+
+    # Merge frame con query (se presente)
+    if request.query:
+        frame_from_query = filtra_automa(automa, request.query)
+
+        if "frame" in nlu_output and isinstance(nlu_output["frame"], dict):
+            nlu_output["_raw_frame"] = nlu_output["frame"]
+            nlu_output["frame"] = merge_frames(nlu_output["frame"], frame_from_query)
+        else:
+            nlu_output["frame"] = frame_from_query
+
+    # DM
+    action, already_asked_index, certainty_score, best_frame = dm.process_input(nlu_output)
+    system_output = action.template
+    dm.update_state_tracker_with_system_response(system_output)
+
+    if best_frame is not None and not isinstance(best_frame, dict):
+        best_frame = best_frame.__dict__
+
+        filtered_best_frame = {
+            "intent": best_frame.get("intent"),
+            "argument": best_frame.get("argument"),
+            "dialogue_acts_list": best_frame.get("dialogue_acts_list"),
+            "correctedFrame": best_frame.get("correctedFrame"),
+        }
+    else:
+        filtered_best_frame = {}
+
+    return ChatResponse(
+        nlu_output=nlu_output,
+        best_frame=filtered_best_frame,
+        certainty_score=certainty_score,
         response=system_output,
         svg_elements=action.svg_elements,  # presi da Category
         image=action.image                 # preso da Category

@@ -39,7 +39,7 @@ class DM:
         })
 
         # Step 2: Decidi l'azione successiva
-        system_action, already_asked = self.policy_manager.select_action(
+        system_action, already_asked, certainty_score, best_frame = self.policy_manager.select_action(
             self.dialogue_context.get_context(),
             self.state_tracker.get_state()
         )
@@ -59,7 +59,7 @@ class DM:
         # self.state_tracker.update_common_ground({})
 
         # Step 5: Restituisci l'azione (es. domanda o risposta)
-        return system_action, already_asked
+        return system_action, already_asked, certainty_score, best_frame
     
     def update_state_tracker_with_system_response(self, system_response):
         """

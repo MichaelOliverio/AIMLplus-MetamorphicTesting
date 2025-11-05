@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <aiml>
-    <category intent="fsa-practical" argument="automaton" wrong="['The automaton accepts zero or more words formed by a sequence of the type 11000. ', 'The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 e q4. q0 is both the initial and the final state.']" request="Can you describe me the automaton?">
+    <category intent="fsa-practical" argument="automaton">
         <acts>
             <act time="0">Ta:request</act>
         </acts>
@@ -10,7 +10,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="state" wrong="['The automaton has 3 states: ', 'The automaton has 3 states: q0, q1, q2, ']" request="How many states does the automaton have, and what are they?">
+    <category intent="fsa-practical" argument="state">
         <acts>
             <act time="0">Ta:request</act>
         </acts>
@@ -20,12 +20,11 @@
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement>
-            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement>
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The automaton has 3 transitions: ', 'The automaton has 3 transitions: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, ']" request="How many transitions does the automaton have, and what are their values?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:request</act>
         </acts>
@@ -34,13 +33,11 @@
             The automaton has 5 transitions: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement>
-            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement>
-            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement>
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="state" request="Which is the initial state?">
+    <category intent="fsa-practical" argument="state">
         <acts>
             <act time="0">Ta:request</act>
         </acts>
@@ -57,7 +54,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="state" request="Which is the final state?">
+    <category intent="fsa-practical" argument="state">
         <acts>
             <act time="0">Ta:request</act>
         </acts>
@@ -74,7 +71,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="automaton" wrong="['The automaton has 7 states and 9 transitions.']" request="How many states and transitions does the automaton have?">
+    <category intent="fsa-practical" argument="automaton">
         <acts>
             <act time="0">Ta:request</act>
         </acts>
@@ -89,11 +86,11 @@
         
         </frame>
         <template>
-            The automaton has 5 states and 5 transitions.
+            The automaton has 4 states and 3 transitions.
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="state" request="What is the initial state and what is the final state?">
+    <category intent="fsa-practical" argument="state">
         <acts>
             <act time="0">Ta:request</act>
         </acts>
@@ -107,7 +104,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q0 and q0 in both directions: q0-&gt;q0 = 5, q0-&gt;q0 = 8.']" request="Is there a transition between q0 and q0?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -132,7 +129,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition from q0 to q1 has value 10.']" request="Is there a transition between q0 and q1?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -158,7 +155,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q0 and q2 in both directions: q0-&gt;q2 = 5, q2-&gt;q0 = 8.']" request="Is there a transition between q0 and q2?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -183,7 +180,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q0 and q3 in both directions: q0-&gt;q3 = 5, q3-&gt;q0 = 8.']" request="Is there a transition between q0 and q3?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -208,7 +205,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition from q4 to q0 has value 00.']" request="Is there a transition between q4 and q0?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -234,7 +231,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition from q0 to q1 has value 10.']" request="Is there a transition between q0 and q1?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -260,7 +257,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q1 and q1 in both directions: q1-&gt;q1 = 5, q1-&gt;q1 = 8.']" request="Is there a transition between q1 and q1?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -285,7 +282,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition from q1 to q2 has value 10.']" request="Is there a transition between q1 and q2?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -311,7 +308,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q1 and q3 in both directions: q1-&gt;q3 = 5, q3-&gt;q1 = 8.']" request="Is there a transition between q1 and q3?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -336,7 +333,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q1 and q4 in both directions: q1-&gt;q4 = 5, q4-&gt;q1 = 8.']" request="Is there a transition between q1 and q4?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -361,7 +358,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q2 and q0 in both directions: q2-&gt;q0 = 5, q0-&gt;q2 = 8.']" request="Is there a transition between q2 and q0?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -386,7 +383,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition from q1 to q2 has value 10.']" request="Is there a transition between q1 and q2?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -412,7 +409,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q2 and q2 in both directions: q2-&gt;q2 = 5, q2-&gt;q2 = 8.']" request="Is there a transition between q2 and q2?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -437,7 +434,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition from q2 to q3 has value 00.']" request="Is there a transition between q2 and q3?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -463,7 +460,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q2 and q4 in both directions: q2-&gt;q4 = 5, q4-&gt;q2 = 8.']" request="Is there a transition between q2 and q4?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -488,7 +485,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q3 and q0 in both directions: q3-&gt;q0 = 5, q0-&gt;q3 = 8.']" request="Is there a transition between q3 and q0?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -513,7 +510,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q3 and q1 in both directions: q3-&gt;q1 = 5, q1-&gt;q3 = 8.']" request="Is there a transition between q3 and q1?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -538,7 +535,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition from q2 to q3 has value 00.']" request="Is there a transition between q2 and q3?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -564,7 +561,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q3 and q3 in both directions: q3-&gt;q3 = 5, q3-&gt;q3 = 8.']" request="Is there a transition between q3 and q3?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -589,7 +586,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition from q3 to q4 has value 00.']" request="Is there a transition between q3 and q4?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -615,7 +612,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition from q4 to q0 has value 00.']" request="Is there a transition between q4 and q0?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -641,7 +638,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q4 and q1 in both directions: q4-&gt;q1 = 5, q1-&gt;q4 = 8.']" request="Is there a transition between q4 and q1?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -666,7 +663,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q4 and q2 in both directions: q4-&gt;q2 = 5, q2-&gt;q4 = 8.']" request="Is there a transition between q4 and q2?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -691,7 +688,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition from q3 to q4 has value 00.']" request="Is there a transition between q3 and q4?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -717,7 +714,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q4 and q4 in both directions: q4-&gt;q4 = 5, q4-&gt;q4 = 8.']" request="Is there a transition between q4 and q4?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -892,7 +889,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q0 and q0 is with value 5.']" request="What is the value of the between q0 and q0?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -926,7 +923,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['there is no transition between q0 and q1.']" request="What is the value of the between q0 and q1?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -961,7 +958,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q0 and q2 is with value 5.']" request="What is the value of the between q0 and q2?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -995,41 +992,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q0 and q3 is with value 5.']" request="What is the value of the between q0 and q3?">
-        <acts>
-            <act time="0">Ta:propositionalQuestion</act>
-        </acts>
-        <frame>
-            
-                    
-            <slot name="transitions">
-                
-                        
-                <slot-values>
-                    
-                            
-                    <slot-value value="q0"/>
-                    
-                            
-                    <slot-value value="q3"/>
-                    
-                            
-                    <slot-value value="?"/>
-                    
-                        
-                </slot-values>
-                
-                    
-            </slot>
-            
-                
-        </frame>
-        <template>
-            there is no transition between q0 and q3.
-            <image>automi/automa.svg</image>
-        </template>
-    </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q0 and q4 is with value 5.']" request="What is the value of the between q0 and q4?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -1063,7 +1026,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q1 and q0 is with value 5.']" request="What is the value of the between q1 and q0?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -1097,7 +1060,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q1 and q1 is with value 5.']" request="What is the value of the between q1 and q1?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -1131,7 +1094,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['there is no transition between q1 and q2.']" request="What is the value of the between q1 and q2?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -1166,41 +1129,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q1 and q3 is with value 5.']" request="What is the value of the between q1 and q3?">
-        <acts>
-            <act time="0">Ta:propositionalQuestion</act>
-        </acts>
-        <frame>
-            
-                    
-            <slot name="transitions">
-                
-                        
-                <slot-values>
-                    
-                            
-                    <slot-value value="q1"/>
-                    
-                            
-                    <slot-value value="q3"/>
-                    
-                            
-                    <slot-value value="?"/>
-                    
-                        
-                </slot-values>
-                
-                    
-            </slot>
-            
-                
-        </frame>
-        <template>
-            there is no transition between q1 and q3.
-            <image>automi/automa.svg</image>
-        </template>
-    </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q1 and q4 is with value 5.']" request="What is the value of the between q1 and q4?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -1234,7 +1163,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q2 and q0 is with value 5.']" request="What is the value of the between q2 and q0?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -1268,7 +1197,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q2 and q1 is with value 5.']" request="What is the value of the between q2 and q1?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -1302,7 +1231,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q2 and q2 is with value 5.']" request="What is the value of the between q2 and q2?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -1336,42 +1265,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['there is no transition between q2 and q3.']" request="What is the value of the between q2 and q3?">
-        <acts>
-            <act time="0">Ta:propositionalQuestion</act>
-        </acts>
-        <frame>
-            
-                    
-            <slot name="transitions">
-                
-                        
-                <slot-values>
-                    
-                            
-                    <slot-value value="q2"/>
-                    
-                            
-                    <slot-value value="q3"/>
-                    
-                            
-                    <slot-value value="?"/>
-                    
-                        
-                </slot-values>
-                
-                    
-            </slot>
-            
-                
-        </frame>
-        <template>
-            The transition between q2 and q3 is with value 0.
-            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement>
-            <image>automi/automa.svg</image>
-        </template>
-    </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q2 and q4 is with value 5.']" request="What is the value of the between q2 and q4?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -1405,178 +1299,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q3 and q0 is with value 5.']" request="What is the value of the between q3 and q0?">
-        <acts>
-            <act time="0">Ta:propositionalQuestion</act>
-        </acts>
-        <frame>
-            
-                    
-            <slot name="transitions">
-                
-                        
-                <slot-values>
-                    
-                            
-                    <slot-value value="q3"/>
-                    
-                            
-                    <slot-value value="q0"/>
-                    
-                            
-                    <slot-value value="?"/>
-                    
-                        
-                </slot-values>
-                
-                    
-            </slot>
-            
-                
-        </frame>
-        <template>
-            there is no transition between q3 and q0.
-            <image>automi/automa.svg</image>
-        </template>
-    </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q3 and q1 is with value 5.']" request="What is the value of the between q3 and q1?">
-        <acts>
-            <act time="0">Ta:propositionalQuestion</act>
-        </acts>
-        <frame>
-            
-                    
-            <slot name="transitions">
-                
-                        
-                <slot-values>
-                    
-                            
-                    <slot-value value="q3"/>
-                    
-                            
-                    <slot-value value="q1"/>
-                    
-                            
-                    <slot-value value="?"/>
-                    
-                        
-                </slot-values>
-                
-                    
-            </slot>
-            
-                
-        </frame>
-        <template>
-            there is no transition between q3 and q1.
-            <image>automi/automa.svg</image>
-        </template>
-    </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q3 and q2 is with value 5.']" request="What is the value of the between q3 and q2?">
-        <acts>
-            <act time="0">Ta:propositionalQuestion</act>
-        </acts>
-        <frame>
-            
-                    
-            <slot name="transitions">
-                
-                        
-                <slot-values>
-                    
-                            
-                    <slot-value value="q3"/>
-                    
-                            
-                    <slot-value value="q2"/>
-                    
-                            
-                    <slot-value value="?"/>
-                    
-                        
-                </slot-values>
-                
-                    
-            </slot>
-            
-                
-        </frame>
-        <template>
-            there is no transition between q3 and q2.
-            <image>automi/automa.svg</image>
-        </template>
-    </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q3 and q3 is with value 5.']" request="What is the value of the between q3 and q3?">
-        <acts>
-            <act time="0">Ta:propositionalQuestion</act>
-        </acts>
-        <frame>
-            
-                    
-            <slot name="transitions">
-                
-                        
-                <slot-values>
-                    
-                            
-                    <slot-value value="q3"/>
-                    
-                            
-                    <slot-value value="q3"/>
-                    
-                            
-                    <slot-value value="?"/>
-                    
-                        
-                </slot-values>
-                
-                    
-            </slot>
-            
-                
-        </frame>
-        <template>
-            there is no transition between q3 and q3.
-            <image>automi/automa.svg</image>
-        </template>
-    </category>
-    <category intent="fsa-practical" argument="transition" wrong="['there is no transition between q3 and q4.']" request="What is the value of the between q3 and q4?">
-        <acts>
-            <act time="0">Ta:propositionalQuestion</act>
-        </acts>
-        <frame>
-            
-                    
-            <slot name="transitions">
-                
-                        
-                <slot-values>
-                    
-                            
-                    <slot-value value="q3"/>
-                    
-                            
-                    <slot-value value="q4"/>
-                    
-                            
-                    <slot-value value="?"/>
-                    
-                        
-                </slot-values>
-                
-                    
-            </slot>
-            
-                
-        </frame>
-        <template>
-            The transition between q3 and q4 is with value 0.
-            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement>
-            <image>automi/automa.svg</image>
-        </template>
-    </category>
-    <category intent="fsa-practical" argument="transition" wrong="['there is no transition between q4 and q0.']" request="What is the value of the between q4 and q0?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -1611,7 +1334,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q4 and q1 is with value 5.']" request="What is the value of the between q4 and q1?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -1645,7 +1368,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q4 and q2 is with value 5.']" request="What is the value of the between q4 and q2?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -1679,41 +1402,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q4 and q3 is with value 5.']" request="What is the value of the between q4 and q3?">
-        <acts>
-            <act time="0">Ta:propositionalQuestion</act>
-        </acts>
-        <frame>
-            
-                    
-            <slot name="transitions">
-                
-                        
-                <slot-values>
-                    
-                            
-                    <slot-value value="q4"/>
-                    
-                            
-                    <slot-value value="q3"/>
-                    
-                            
-                    <slot-value value="?"/>
-                    
-                        
-                </slot-values>
-                
-                    
-            </slot>
-            
-                
-        </frame>
-        <template>
-            there is no transition between q4 and q3.
-            <image>automi/automa.svg</image>
-        </template>
-    </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The transition between q4 and q4 is with value 5.']" request="What is the value of the between q4 and q4?">
+    <category intent="fsa-practical" argument="transition">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -1896,40 +1585,6 @@
                 <slot-values>
                     
                         
-                    <slot-value value="q3"/>
-                    
-                        
-                    <slot-value value="*"/>
-                    
-                        
-                    <slot-value value="?"/>
-                    
-                    
-                </slot-values>
-                
-                
-            </slot>
-            
-            
-        </frame>
-        <template>
-            the transition is not defined.
-            <image>automi/automa.svg</image>
-        </template>
-    </category>
-    <category intent="fsa-practical" argument="transition">
-        <acts>
-            <act time="0">Ta:request</act>
-        </acts>
-        <frame>
-            
-                
-            <slot name="transitions">
-                
-                    
-                <slot-values>
-                    
-                        
                     <slot-value value="q4"/>
                     
                         
@@ -2069,40 +1724,6 @@
                     <slot-value value="*"/>
                     
                         
-                    <slot-value value="q3"/>
-                    
-                        
-                    <slot-value value="?"/>
-                    
-                    
-                </slot-values>
-                
-                
-            </slot>
-            
-            
-        </frame>
-        <template>
-            the transition is not defined.
-            <image>automi/automa.svg</image>
-        </template>
-    </category>
-    <category intent="fsa-practical" argument="transition">
-        <acts>
-            <act time="0">Ta:request</act>
-        </acts>
-        <frame>
-            
-                
-            <slot name="transitions">
-                
-                    
-                <slot-values>
-                    
-                        
-                    <slot-value value="*"/>
-                    
-                        
                     <slot-value value="q4"/>
                     
                         
@@ -2121,7 +1742,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The state q0 does not exist.']" request="Does state q0 exist?">
+    <category intent="fsa-practical" argument="state">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -2144,7 +1765,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The state q1 does not exist.']" request="Does state q1 exist?">
+    <category intent="fsa-practical" argument="state">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -2167,7 +1788,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The state q2 does not exist.']" request="Does state q2 exist?">
+    <category intent="fsa-practical" argument="state">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -2190,30 +1811,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The state q3 does not exist.']" request="Does state q3 exist?">
-        <acts>
-            <act time="0">Ta:propositionalQuestion</act>
-        </acts>
-        <frame>
-            
-                
-            <slot name="states">
-                
-                    
-                <slot-value value="q3"/>
-                
-                
-            </slot>
-            
-            
-        </frame>
-        <template>
-            The state q3 exists.
-            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement>
-            <image>automi/automa.svg</image>
-        </template>
-    </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The state q4 does not exist.']" request="Does state q4 exist?">
+    <category intent="fsa-practical" argument="state">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -2236,7 +1834,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="state" wrong="['The initial state does not exist.']" request="Which is the initial state?">
+    <category intent="fsa-practical" argument="state">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -2269,7 +1867,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="state" wrong="['The final state does not exist.']" request="Which is the final state?">
+    <category intent="fsa-practical" argument="state">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -2314,7 +1912,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="state" wrong="['This automaton has 6 states']" request="How many states does this automaton have?">
+    <category intent="fsa-practical" argument="state">
         <acts>
             <act time="0">Ta:request</act>
         </acts>
@@ -2326,32 +1924,30 @@
         
         </frame>
         <template>
-            This automaton has 5 states
+            This automaton has 4 states
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement>
-            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement>
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="state" wrong="['This automaton has 6 states']" request="How many states does this automaton have?">
+    <category intent="fsa-practical" argument="state">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
         <frame>
             
             
-            <slot name="numberOfStates" value="5"/>
+            <slot name="numberOfStates" value="4"/>
             
         
         </frame>
         <template>
-            There are 5 states in this automaton.
+            There are 4 states in this automaton.
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement>
-            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement>
             <image>automi/automa.svg</image>
         </template>
@@ -2372,7 +1968,6 @@
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement>
-            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement>
             <image>automi/automa.svg</image>
         </template>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <aiml>
-    <category intent="fsa-practical" argument="automaton" wrong="['The automaton accepts zero or more words formed by a sequence of the type 11000. ', 'The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 e q4. q0 is both the initial and the final state.']" request="Can you describe me the automaton?">
+    <category intent="fsa-practical" argument="automaton" wrong="['The automaton accepts zero or more words formed by a sequence of the type 11000. ', 'The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 and q4. q0 is both the initial and the final state.']" request="Can you describe me the automaton?">
         <acts>
             <act time="0">Ta:request</act>
         </acts>
         <frame></frame>
         <template>
-            The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 e q4. q0 is both the initial and the final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.
+            The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 and q4. q0 is both the initial and the final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.
             <image>automi/automa.svg</image>
         </template>
     </category>
@@ -31,7 +31,7 @@
         </acts>
         <frame></frame>
         <template>
-            The automaton has 5 transitions: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.
+            The automaton has 5 transitions: q1 with value 1 goes to q0, q2 with value 1 goes to q1, q3 with value 0 goes to q2, q4 with value 0 goes to q3, q4 with value 0 goes to q0.
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement>
@@ -2121,7 +2121,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The state q0 does not exist.']" request="Does state q0 exist?">
+    <category intent="fsa-practical" argument="state" wrong="['The state q0 does not exist.']" request="Does state q0 exist?">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -2144,7 +2144,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The state q1 does not exist.']" request="Does state q1 exist?">
+    <category intent="fsa-practical" argument="state" wrong="['The state q1 does not exist.']" request="Does state q1 exist?">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -2167,7 +2167,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The state q2 does not exist.']" request="Does state q2 exist?">
+    <category intent="fsa-practical" argument="state" wrong="['The state q2 does not exist.']" request="Does state q2 exist?">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -2190,7 +2190,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The state q3 does not exist.']" request="Does state q3 exist?">
+    <category intent="fsa-practical" argument="state" wrong="['The state q3 does not exist.']" request="Does state q3 exist?">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>
@@ -2213,7 +2213,7 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The state q4 does not exist.']" request="Does state q4 exist?">
+    <category intent="fsa-practical" argument="state" wrong="['The state q4 does not exist.']" request="Does state q4 exist?">
         <acts>
             <act time="0">Ta:propositionalQuestion</act>
         </acts>

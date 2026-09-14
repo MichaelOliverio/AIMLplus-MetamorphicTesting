@@ -20,7 +20,7 @@ class FrameExtractor:
             dialogue_act = parsed_output['dialogue_act']
 
             frame = {}
-            if parsed_output['slot_names'] and parsed_output['slot_values']:
+            if parsed_output.get('slot_names') and parsed_output.get('slot_values'):
                 for i, slot_name in enumerate(parsed_output['slot_names']):
                     if i < len(parsed_output['slot_values']):
                         frame[slot_name] = parsed_output['slot_values'][i]

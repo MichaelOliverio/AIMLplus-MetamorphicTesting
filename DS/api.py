@@ -308,7 +308,19 @@ def chat(request: ChatRequest):
     print("DM inizializzato")
 
     # Estrazione NLU
-    nlu_output = nlu.extraction(request.user_input, model, False)
+    MAX_RETRIES = 10
+
+    for attempt in range(MAX_RETRIES):
+        try:
+            nlu_output = nlu.extraction(request.user_input, model, False)
+            break
+        except (KeyError, SyntaxError, ValueError) as e:
+            print(f"Tentativo {attempt+1}: {e}")
+            if attempt == MAX_RETRIES - 1:
+                raise HTTPException(500, detail=str(e))
+
+    #nlu_output = nlu.extraction(request.user_input, model, False)
+
     print("NLU output:", nlu_output)
 
     #nlu_output = {

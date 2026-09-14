@@ -128,7 +128,7 @@
                 
         </frame>
         <template>
-            There is no transition between q0 and q0.
+            MUTATION There is no transition between q0 and q0.
             <image>automi/automa.svg</image>
         </template>
     </category>
@@ -153,7 +153,7 @@
                 
         </frame>
         <template>
-            The transition from q0 to q1 has value 1.
+            MUTATION The transition from q0 to q1 has value 1.
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement>
             <image>automi/automa.svg</image>
         </template>
@@ -179,7 +179,7 @@
                 
         </frame>
         <template>
-            There is no transition between q0 and q2.
+            MUTATION There is no transition between q0 and q2.
             <image>automi/automa.svg</image>
         </template>
     </category>
@@ -204,7 +204,7 @@
                 
         </frame>
         <template>
-            There is no transition between q0 and q3.
+            MUTATION There is no transition between q0 and q3.
             <image>automi/automa.svg</image>
         </template>
     </category>
@@ -229,7 +229,7 @@
                 
         </frame>
         <template>
-            The transition from q4 to q0 has value 0.
+            MUTATION The transition from q4 to q0 has value 0.
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement>
             <image>automi/automa.svg</image>
         </template>
@@ -255,7 +255,7 @@
                 
         </frame>
         <template>
-            The transition from q0 to q1 has value 1.
+            MUTATION The transition from q0 to q1 has value 1.
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement>
             <image>automi/automa.svg</image>
         </template>
@@ -281,7 +281,7 @@
                 
         </frame>
         <template>
-            There is no transition between q1 and q1.
+            MUTATION There is no transition between q1 and q1.
             <image>automi/automa.svg</image>
         </template>
     </category>
@@ -306,7 +306,7 @@
                 
         </frame>
         <template>
-            The transition from q1 to q2 has value 1.
+            MUTATION The transition from q1 to q2 has value 1.
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement>
             <image>automi/automa.svg</image>
         </template>
@@ -332,7 +332,7 @@
                 
         </frame>
         <template>
-            There is no transition between q1 and q3.
+            MUTATION There is no transition between q1 and q3.
             <image>automi/automa.svg</image>
         </template>
     </category>
@@ -357,7 +357,7 @@
                 
         </frame>
         <template>
-            There is no transition between q1 and q4.
+            MUTATION There is no transition between q1 and q4.
             <image>automi/automa.svg</image>
         </template>
     </category>
@@ -382,7 +382,7 @@
                 
         </frame>
         <template>
-            There is no transition between q2 and q0.
+            MUTATION There is no transition between q2 and q0.
             <image>automi/automa.svg</image>
         </template>
     </category>
@@ -407,7 +407,7 @@
                 
         </frame>
         <template>
-            The transition from q1 to q2 has value 1.
+            MUTATION The transition from q1 to q2 has value 1.
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement>
             <image>automi/automa.svg</image>
         </template>
@@ -433,7 +433,7 @@
                 
         </frame>
         <template>
-            There is no transition between q2 and q2.
+            MUTATION There is no transition between q2 and q2.
             <image>automi/automa.svg</image>
         </template>
     </category>
@@ -458,7 +458,7 @@
                 
         </frame>
         <template>
-            The transition from q2 to q3 has value 0.
+            MUTATION The transition from q2 to q3 has value 0.
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement>
             <image>automi/automa.svg</image>
         </template>
@@ -484,7 +484,7 @@
                 
         </frame>
         <template>
-            There is no transition between q2 and q4.
+            MUTATION There is no transition between q2 and q4.
             <image>automi/automa.svg</image>
         </template>
     </category>
@@ -509,7 +509,7 @@
                 
         </frame>
         <template>
-            There is no transition between q3 and q0.
+            MUTATION There is no transition between q3 and q0.
             <image>automi/automa.svg</image>
         </template>
     </category>
@@ -534,7 +534,7 @@
                 
         </frame>
         <template>
-            There is no transition between q3 and q1.
+            MUTATION There is no transition between q3 and q1.
             <image>automi/automa.svg</image>
         </template>
     </category>
@@ -559,7 +559,7 @@
                 
         </frame>
         <template>
-            The transition from q2 to q3 has value 0.
+            MUTATION The transition from q2 to q3 has value 0.
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement>
             <image>automi/automa.svg</image>
         </template>
@@ -585,7 +585,7 @@
                 
         </frame>
         <template>
-            There is no transition between q3 and q3.
+            MUTATION There is no transition between q3 and q3.
             <image>automi/automa.svg</image>
         </template>
     </category>
@@ -610,7 +610,7 @@
                 
         </frame>
         <template>
-            The transition from q3 to q4 has value 0.
+            MUTATION The transition from q3 to q4 has value 0.
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement>
             <image>automi/automa.svg</image>
         </template>
@@ -636,7 +636,7 @@
                 
         </frame>
         <template>
-            The transition from q4 to q0 has value 0.
+            MUTATION The transition from q4 to q0 has value 0.
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement>
             <image>automi/automa.svg</image>
         </template>
@@ -662,7 +662,7 @@
                 
         </frame>
         <template>
-            There is no transition between q4 and q1.
+            MUTATION There is no transition between q4 and q1.
             <image>automi/automa.svg</image>
         </template>
     </category>
@@ -687,7 +687,7 @@
                 
         </frame>
         <template>
-            There is no transition between q4 and q2.
+            MUTATION There is no transition between q4 and q2.
             <image>automi/automa.svg</image>
         </template>
     </category>
@@ -712,7 +712,7 @@
                 
         </frame>
         <template>
-            The transition from q3 to q4 has value 0.
+            MUTATION The transition from q3 to q4 has value 0.
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement>
             <image>automi/automa.svg</image>
         </template>
@@ -738,7 +738,7 @@
                 
         </frame>
         <template>
-            There is no transition between q4 and q4.
+            MUTATION There is no transition between q4 and q4.
             <image>automi/automa.svg</image>
         </template>
     </category>

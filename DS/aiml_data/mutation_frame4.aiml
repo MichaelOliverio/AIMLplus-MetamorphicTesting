@@ -1,0 +1,2005 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+    <category intent="fsa-practical" argument="automaton" wrong="['The automaton accepts zero or more words formed by a sequence of the type 11000. ', 'The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 and q4. q0 is both the initial and the final state.']" request="Can you describe me the automaton?" metamorph="{&quot;paraphrase&quot;: [&quot;The automaton accepts any number of words composed of sequences of the form 11000. In total there are 5 states: q0, q1, q2, q3 and q4. q0 serves as both the initial and final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.&quot;], &quot;missing_detail&quot;: [&quot;The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 and q4. q0 is both the initial and the final state. The transitions are: q0 with value 1 goes to q1, &quot;, &quot;The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 and q4. q0 is both the initial and the final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, &quot;, &quot;The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 and q4. q0 is both the initial and the final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, &quot;, &quot;The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 and q4. q0 is both the initial and the final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, &quot;, &quot;The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 and q4. q0 is both the initial and the final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.&quot;], &quot;swap&quot;: [&quot;The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 and q4. q2 is both the initial and the final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.&quot;, &quot;The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 and q4. q0 is both the initial and the final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q0 with value 0 goes to q4.&quot;], &quot;contradiction&quot;: [&quot;The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 and q4. q0 is not both the initial and the final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.&quot;], &quot;extra&quot;: [&quot;The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q10, q3 and q4. q0 is both the initial and the final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.&quot;, &quot;The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 and q4. q0 is both the initial and the final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q10 with value 10 goes to q11q4 with value 0 goes to q0.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The automaton accepts zero or more words frmed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 and q4. q0 is both the initial and the final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.&quot;, &quot;The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 and q4. q0 is both the initial and the final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 withvalue 0 goes to q4, q4 with value 0 goes to q0.&quot;, &quot;The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 and q4. q0 is both the initial and the final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with jvalue 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.&quot;, &quot;The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 and q4. qv0 is both the initial and the final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.&quot;], &quot;ambiguos&quot;: [&quot;The automaton accepts zero or more words formed by a sequence of the type 11000. I think that In total there are 5 states: q0, q1, q2, q3 and q4. I think that q0 is both the initial and the final state. I think that The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.&quot;]}">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame></frame>
+        <template>
+            The automaton accepts zero or more words formed by a sequence of the type 11000. In total there are 5 states: q0, q1, q2, q3 and q4. q0 is both the initial and the final state. The transitions are: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state" wrong="['The automaton has 3 states: ', 'The automaton has 3 states: q0, q1, q2, ']" request="How many states does the automaton have, and what are they?" metamorph="{&quot;paraphrase&quot;: [&quot;The automaton consists of 5 states: q0, q1, q2, q3 and q4.&quot;], &quot;missing_detail&quot;: [&quot;The automaton has 1 states: q0.&quot;, &quot;The automaton has 2 states: q0 and q1.&quot;, &quot;The automaton has 3 states: q0, q1 and q2.&quot;, &quot;The automaton has 4 states: q0, q1, q2 and q3.&quot;, &quot;The automaton has 5 states: q0, q1, q2, q3 and q4.&quot;], &quot;swap&quot;: [], &quot;contradiction&quot;: [&quot;The automaton has not 5 states: q0, q1, q2, q3 and q4.&quot;], &quot;extra&quot;: [&quot;The automaton has 5 states: q10, q0, q1, q2, q3 and q4.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The automaton has 5 states: q0, q1, 2, q3 and q4.&quot;, &quot;The automaton has 5 states: q0, q1, q2, q3 and q.&quot;, &quot;The automaton has 5 states: q0, q1, q2, qi3 and q4.&quot;, &quot;The automaton has 5 states: q0, q1, q2, q3 and qf4.&quot;], &quot;ambiguos&quot;: [&quot;I think the automaton has 5 states, they should be: q0, q1, q2, q3 and q4.&quot;]}">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame></frame>
+        <template>
+            The automaton has 5 states: q0, q1, q2, q3 and q4.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The automaton has 3 transitions: ', 'The automaton has 3 transitions: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, ']" request="How many transitions does the automaton have, and what are their values?" metamorph="{&quot;paraphrase&quot;: [&quot;The automaton contains 5 transitions: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.&quot;], &quot;missing_detail&quot;: [&quot;The automaton has 1 transitions: q0 with value 1 goes to q1.&quot;, &quot;The automaton has 2 transitions: q1 with value 1 goes to q2, q1 with value 1 goes to q2.&quot;, &quot;The automaton has 3 transitions: q2 with value 0 goes to q3, q2 with value 0 goes to q3, q2 with value 0 goes to q3.&quot;, &quot;The automaton has 4 transitions: q3 with value 0 goes to q4, q3 with value 0 goes to q4, q3 with value 0 goes to q4, q3 with value 0 goes to q4.&quot;, &quot;The automaton has 5 transitions: q4 with value 0 goes to q0, q4 with value 0 goes to q0, q4 with value 0 goes to q0, q4 with value 0 goes to q0, q4 with value 0 goes to q0.&quot;], &quot;swap&quot;: [&quot;The automaton has 5 transitions: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q0 with value 0 goes to q4.&quot;], &quot;contradiction&quot;: [&quot;The automaton has not 5 transitions: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.&quot;], &quot;extra&quot;: [&quot;The automaton has 5 transitions: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q10 with value 10 goes to q11, q4 with value 0 goes to q0.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The automaton has 5 transitions: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.&lt;svgElement style-name=\&quot;stroke\&quot; style-value=\&quot;#04ed00\&quot;&gt;simbolo-q0-q1&lt;/svgElement&gt;&lt;svgElement style-name=\&quot;stroke\&quot; style-value=\&quot;#04ed00\&quot;&gt;simbolo-q1-q2&lt;/svgElement&gt;&lt;svgElement style-name=\&quot;stroke\&quot; style-value=\&quot;#04ed00\&quot;&gt;simbolo-q2-q3&lt;/svgElement&gt;&lt;svgElement style-name=\&quot;stroke\&quot; style-value=\&quot;#04ed00\&quot;&gt;simbolo-q3-q4&lt;/svgElement&gt;&lt;svgElement style-name=\&quot;sroke\&quot; style-value=\&quot;#04ed00\&quot;&gt;simbolo-q4-q0&lt;/svgElement&gt;&quot;, &quot;The automaton has 5 transitions: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.&lt;svgElement style-name=\&quot;stroke\&quot; style-value=\&quot;#04ed00\&quot;&gt;simbolo-q0-q1&lt;/svgElement&gt;&lt;svgElement style-name=\&quot;stroke\&quot; style-value=\&quot;#04ed00\&quot;&gt;simbolo-q1-q2&lt;/svgElement&gt;&lt;svgElement style-name=\&quot;stroke\&quot; style-value=\&quot;#04ed00\&quot;&gt;simbolo-q2-q3&lt;/svgElement&gt;&lt;svgElement style-name=\&quot;stroke\&quot; styl-value=\&quot;#04ed00\&quot;&gt;simbolo-q3-q4&lt;/svgElement&gt;&lt;svgElement style-name=\&quot;stroke\&quot; style-value=\&quot;#04ed00\&quot;&gt;simbolo-q4-q0&lt;/svgElement&gt;&quot;, &quot;The automaton has 5 transitions: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.&lt;svgElement style-name=\&quot;stroke\&quot; style-value=\&quot;#04ed00\&quot;&gt;simbolo-q0-q1&lt;/svgElement&gt;&lt;svgElement style-name=\&quot;stroke\&quot; style-value=\&quot;#04ed00\&quot;&gt;simbolo-q1-q2&lt;/svgElement&gt;&lt;svgElement style-name=\&quot;stroke\&quot; style-value=\&quot;#04ed00\&quot;&gt;simbolo-q2-q3&lt;/svgElement&gt;&lt;svgElement style-name=\&quot;stroke\&quot; style-value=\&quot;#04ed00\&quot;&gt;simbolo-q3-q4&lt;/svgElement&gt;&lt;svgElement style-name=\&quot;stroke\&quot; style-valuue=\&quot;#04ed00\&quot;&gt;simbolo-q4-q0&lt;/svgElement&gt;&quot;, &quot;The automaton has 5 transitions: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.&lt;svgElement style-name=\&quot;stroke\&quot; style-value=\&quot;#04eod00\&quot;&gt;simbolo-q0-q1&lt;/svgElement&gt;&lt;svgElement style-name=\&quot;stroke\&quot; style-value=\&quot;#04ed00\&quot;&gt;simbolo-q1-q2&lt;/svgElement&gt;&lt;svgElement style-name=\&quot;stroke\&quot; style-value=\&quot;#04ed00\&quot;&gt;simbolo-q2-q3&lt;/svgElement&gt;&lt;svgElement style-name=\&quot;stroke\&quot; style-value=\&quot;#04ed00\&quot;&gt;simbolo-q3-q4&lt;/svgElement&gt;&lt;svgElement style-name=\&quot;stroke\&quot; style-value=\&quot;#04ed00\&quot;&gt;simbolo-q4-q0&lt;/svgElement&gt;&quot;], &quot;ambiguos&quot;: [&quot;I think the automaton has 5 transitions, they should be: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.&quot;]}">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame></frame>
+        <template>
+            The automaton has 5 transitions: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state" request="Which is the initial state?" metamorph="{&quot;paraphrase&quot;: [&quot;The automaton starts in state q0.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;The initial state is q2.&quot;], &quot;contradiction&quot;: [&quot;The initial state is not q0.&quot;], &quot;extra&quot;: [&quot;The initial state are q0 and in state q10.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The initial stat is q0.&quot;, &quot;Theinitial state is q0.&quot;, &quot;The jinitial state is q0.&quot;, &quot;Thwe initial state is q0.&quot;], &quot;ambiguos&quot;: [&quot;I think the initial state is q0.&quot;]}">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="initialState" value="?"/>
+            
+        
+        </frame>
+        <template>
+            The initial state is q0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state" request="Which is the final state?" metamorph="{&quot;paraphrase&quot;: [&quot;The automaton ends in state q0.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;The final state is q2.&quot;], &quot;contradiction&quot;: [&quot;The final state is not q0.&quot;], &quot;extra&quot;: [&quot;The final state are q0 and in state q10.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;Th final state is q0.&quot;, &quot;The final tate is q0.&quot;, &quot;The final state is rq0.&quot;, &quot;yThe final state is q0.&quot;], &quot;ambiguos&quot;: [&quot;I think the final state is q0.&quot;]}">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="finalStates" value="?"/>
+            
+        
+        </frame>
+        <template>
+            The final state is q0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="automaton" wrong="['The automaton has 7 states and 9 transitions.']" request="How many states and transitions does the automaton have?" metamorph="{&quot;paraphrase&quot;: [&quot;The automaton consists of 5 states and 5 transitions.&quot;], &quot;missing_detail&quot;: [&quot;The automaton has 5 states.&quot;, &quot;The automaton has 5 transitions.&quot;], &quot;swap&quot;: [], &quot;contradiction&quot;: [&quot;The automaton has not 5 states and 5 transitions.&quot;], &quot;extra&quot;: [&quot;The automaton has 6 states and 5 transitions.&quot;, &quot;The automaton has 5 states and 6 transitions.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The automaton has 5 state and 5 transitions.&quot;, &quot;The automatonhas 5 states and 5 transitions.&quot;, &quot;The automaton has 5 states and 5 transitiions.&quot;, &quot;The automaton has 5b states and 5 transitions.&quot;], &quot;ambiguos&quot;: [&quot;I think the automaton has 5 states and 5 transitions.&quot;]}">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="numberOfStates" value="?"/>
+            
+            
+            <slot name="numberOfTransitions" value="?"/>
+            
+        
+        </frame>
+        <template>
+            The automaton has 5 states and 5 transitions.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state" request="What is the initial state and what is the final state?" metamorph="{&quot;paraphrase&quot;: [&quot;q0 serves as both the initial and final state.&quot;], &quot;missing_detail&quot;: [&quot;q0 is the initial state.&quot;, &quot;q0 is the final state.&quot;], &quot;swap&quot;: [&quot;q2 is the initial and the final state.&quot;], &quot;contradiction&quot;: [&quot;q0 is not the initial and the final state.&quot;], &quot;extra&quot;: [&quot;q0 is the initial and the final state. The automata has two cycles.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;q0 is the initial and the final tate.&quot;, &quot;q0 is the initial and the finalstate.&quot;, &quot;q0 is the inmitial and the final state.&quot;, &quot;q0 is the initial and the fipnal state.&quot;], &quot;ambiguos&quot;: [&quot;I think that q0 is the initial and the final state.&quot;]}">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>&lt;frame&gt;
+            &lt;slot name=&quot;initialState&quot; value=&quot;?&quot;&quot;/&gt;
+            &lt;slot name=&quot;finalStates&quot; value=&quot;?&quot;/&gt;
+        &lt;/frame&gt;</frame>
+        <template>
+            q0 is the initial and the final state.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q0 and q0 in both directions: q0-&gt;q0 = 5, q0-&gt;q0 = 8.']" request="Is there a transition between q0 and q0, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;No transition exists between q0 and q0.&quot;], &quot;missing_detail&quot;: [&quot;&quot;], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q0 and q0.&quot;], &quot;extra&quot;: [&quot;The transition from q0 to q0 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no ransition between q0 and q0.&quot;, &quot;There is no transtion between q0 and q0.&quot;, &quot;There is no transition between q0 and tq0.&quot;, &quot;There is no ztransition between q0 and q0.&quot;], &quot;ambiguos&quot;: [&quot;I think that There is no transition between q0 and q0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION There is no transition between q0 and q0.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition from q0 to q1 has value 10.']" request="Is there a transition between q0 and q1, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;The transition from q0 to q1 is labeled with 1.&quot;], &quot;missing_detail&quot;: [&quot;There is a transition from q0 to q1&quot;], &quot;swap&quot;: [&quot;The transition from q1 to q0 has value 1.&quot;], &quot;contradiction&quot;: [&quot;The transition from q0 to q1 has not value 1.&quot;], &quot;extra&quot;: [&quot;The transition from q0 to q1 has value 1 and the transition from q1 to q0 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The tranition from q0 to q1 has value 1.&quot;, &quot;The transtion from q0 to q1 has value 1.&quot;, &quot;The transition from q0 to qs1 has value 1.&quot;, &quot;The transition from qw0 to q1 has value 1.&quot;], &quot;ambiguos&quot;: [&quot;I think that The transition from q0 to q1 has value 1.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION The transition from q0 to q1 has value 1.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q0 and q2 in both directions: q0-&gt;q2 = 5, q2-&gt;q0 = 8.']" request="Is there a transition between q0 and q2, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;No transition exists between q0 and q2.&quot;], &quot;missing_detail&quot;: [&quot;&quot;], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q0 and q2.&quot;], &quot;extra&quot;: [&quot;The transition from q2 to q0 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transitionbetween q0 and q2.&quot;, &quot;There isno transition between q0 and q2.&quot;, &quot;There ifs no transition between q0 and q2.&quot;, &quot;There isf no transition between q0 and q2.&quot;], &quot;ambiguos&quot;: [&quot;I think that There is no transition between q0 and q2.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION There is no transition between q0 and q2.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q0 and q3 in both directions: q0-&gt;q3 = 5, q3-&gt;q0 = 8.']" request="Is there a transition between q0 and q3, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;No transition exists between q0 and q3.&quot;], &quot;missing_detail&quot;: [&quot;&quot;], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q0 and q3.&quot;], &quot;extra&quot;: [&quot;The transition from q3 to q0 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no tansition between q0 and q3.&quot;, &quot;There is no transition between q0 andq3.&quot;, &quot;There is no transition between q0 and q3g.&quot;, &quot;There is no transition betwqeen q0 and q3.&quot;], &quot;ambiguos&quot;: [&quot;I think that There is no transition between q0 and q3.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION There is no transition between q0 and q3.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition from q4 to q0 has value 00.']" request="Is there a transition between q4 and q0, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;The transition from q4 to q0 is labeled with 0.&quot;], &quot;missing_detail&quot;: [&quot;There is a transition from q4 to q0&quot;], &quot;swap&quot;: [&quot;The transition from q0 to q4 has value 0.&quot;], &quot;contradiction&quot;: [&quot;The transition from q4 to q0 has not value 0.&quot;], &quot;extra&quot;: [&quot;The transition from q4 to q0 has value 0 and the transition from q0 to q4 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;he transition from q4 to q0 has value 0.&quot;, &quot;The transition from q to q0 has value 0.&quot;, &quot;The transition from iq4 to q0 has value 0.&quot;, &quot;The transition from q4 to q0 has valupe 0.&quot;], &quot;ambiguos&quot;: [&quot;I think that The transition from q4 to q0 has value 0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION The transition from q4 to q0 has value 0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition from q0 to q1 has value 10.']" request="Is there a transition between q0 and q1, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;The transition from q0 to q1 is labeled with 1.&quot;], &quot;missing_detail&quot;: [&quot;There is a transition from q0 to q1&quot;], &quot;swap&quot;: [&quot;The transition from q1 to q0 has value 1.&quot;], &quot;contradiction&quot;: [&quot;The transition from q0 to q1 has not value 1.&quot;], &quot;extra&quot;: [&quot;The transition from q0 to q1 has value 1 and the transition from q1 to q0 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The transition from q0 toq1 has value 1.&quot;, &quot;The transiion from q0 to q1 has value 1.&quot;, &quot;The transition from q0 to q1 has lvalue 1.&quot;, &quot;The transsition from q0 to q1 has value 1.&quot;], &quot;ambiguos&quot;: [&quot;I think that The transition from q0 to q1 has value 1.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION The transition from q0 to q1 has value 1.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q1 and q1 in both directions: q1-&gt;q1 = 5, q1-&gt;q1 = 8.']" request="Is there a transition between q1 and q1, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;No transition exists between q1 and q1.&quot;], &quot;missing_detail&quot;: [&quot;&quot;], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q1 and q1.&quot;], &quot;extra&quot;: [&quot;The transition from q1 to q1 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transiton between q1 and q1.&quot;, &quot;There is no transitio between q1 and q1.&quot;, &quot;There is no transition betweenp q1 and q1.&quot;, &quot;There is no transition betfween q1 and q1.&quot;], &quot;ambiguos&quot;: [&quot;I think that There is no transition between q1 and q1.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION There is no transition between q1 and q1.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition from q1 to q2 has value 10.']" request="Is there a transition between q1 and q2, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;The transition from q1 to q2 is labeled with 1.&quot;], &quot;missing_detail&quot;: [&quot;There is a transition from q1 to q2&quot;], &quot;swap&quot;: [&quot;The transition from q2 to q1 has value 1.&quot;], &quot;contradiction&quot;: [&quot;The transition from q1 to q2 has not value 1.&quot;], &quot;extra&quot;: [&quot;The transition from q1 to q2 has value 1 and the transition from q2 to q1 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The transition from q1 to q2 has alue 1.&quot;, &quot;The transition from 1 to q2 has value 1.&quot;, &quot;The transition from q1 to q2 has value q1.&quot;, &quot;The transition from q1 to q2t has value 1.&quot;], &quot;ambiguos&quot;: [&quot;I think that The transition from q1 to q2 has value 1.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION The transition from q1 to q2 has value 1.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q1 and q3 in both directions: q1-&gt;q3 = 5, q3-&gt;q1 = 8.']" request="Is there a transition between q1 and q3, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;No transition exists between q1 and q3.&quot;], &quot;missing_detail&quot;: [&quot;&quot;], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q1 and q3.&quot;], &quot;extra&quot;: [&quot;The transition from q3 to q1 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition between q1 andq3.&quot;, &quot;There is no transition btween q1 and q3.&quot;, &quot;There is no transition between q1 and q3.d&quot;, &quot;There is no transition between q1 ando q3.&quot;], &quot;ambiguos&quot;: [&quot;I think that There is no transition between q1 and q3.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION There is no transition between q1 and q3.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q1 and q4 in both directions: q1-&gt;q4 = 5, q4-&gt;q1 = 8.']" request="Is there a transition between q1 and q4, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;No transition exists between q1 and q4.&quot;], &quot;missing_detail&quot;: [&quot;&quot;], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q1 and q4.&quot;], &quot;extra&quot;: [&quot;The transition from q4 to q1 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition betwen q1 and q4.&quot;, &quot;here is no transition between q1 and q4.&quot;, &quot;There is no transition between q1 eand q4.&quot;, &quot;There is no transition between qh1 and q4.&quot;], &quot;ambiguos&quot;: [&quot;I think that There is no transition between q1 and q4.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION There is no transition between q1 and q4.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q2 and q0 in both directions: q2-&gt;q0 = 5, q0-&gt;q2 = 8.']" request="Is there a transition between q2 and q0, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;No transition exists between q2 and q0.&quot;], &quot;missing_detail&quot;: [&quot;&quot;], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q2 and q0.&quot;], &quot;extra&quot;: [&quot;The transition from q0 to q2 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition between q2 and 0.&quot;, &quot;There is no ransition between q2 and q0.&quot;, &quot;There is no transition between q2 and jq0.&quot;, &quot;Therek is no transition between q2 and q0.&quot;], &quot;ambiguos&quot;: [&quot;I think that There is no transition between q2 and q0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION There is no transition between q2 and q0.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition from q1 to q2 has value 10.']" request="Is there a transition between q1 and q2, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;The transition from q1 to q2 is labeled with 1.&quot;], &quot;missing_detail&quot;: [&quot;There is a transition from q1 to q2&quot;], &quot;swap&quot;: [&quot;The transition from q2 to q1 has value 1.&quot;], &quot;contradiction&quot;: [&quot;The transition from q1 to q2 has not value 1.&quot;], &quot;extra&quot;: [&quot;The transition from q1 to q2 has value 1 and the transition from q2 to q1 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The transition from q to q2 has value 1.&quot;, &quot;The ransition from q1 to q2 has value 1.&quot;, &quot;The transition from q1 to q2 has value 1.r&quot;, &quot;The transwition from q1 to q2 has value 1.&quot;], &quot;ambiguos&quot;: [&quot;I think that The transition from q1 to q2 has value 1.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION The transition from q1 to q2 has value 1.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q2 and q2 in both directions: q2-&gt;q2 = 5, q2-&gt;q2 = 8.']" request="Is there a transition between q2 and q2, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;No transition exists between q2 and q2.&quot;], &quot;missing_detail&quot;: [&quot;&quot;], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q2 and q2.&quot;], &quot;extra&quot;: [&quot;The transition from q2 to q2 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transitionbetween q2 and q2.&quot;, &quot;There is no transition between q2 nd q2.&quot;, &quot;There is noc transition between q2 and q2.&quot;, &quot;Thenre is no transition between q2 and q2.&quot;], &quot;ambiguos&quot;: [&quot;I think that There is no transition between q2 and q2.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION There is no transition between q2 and q2.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition from q2 to q3 has value 00.']" request="Is there a transition between q2 and q3, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;The transition from q2 to q3 is labeled with 0.&quot;], &quot;missing_detail&quot;: [&quot;There is a transition from q2 to q3&quot;], &quot;swap&quot;: [&quot;The transition from q3 to q2 has value 0.&quot;], &quot;contradiction&quot;: [&quot;The transition from q2 to q3 has not value 0.&quot;], &quot;extra&quot;: [&quot;The transition from q2 to q3 has value 0 and the transition from q3 to q2 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The transition from q2 to q has value 0.&quot;, &quot;The transition from q2 to q3has value 0.&quot;, &quot;The transition frofm q2 to q3 has value 0.&quot;, &quot;The transiwtion from q2 to q3 has value 0.&quot;], &quot;ambiguos&quot;: [&quot;I think that The transition from q2 to q3 has value 0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION The transition from q2 to q3 has value 0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q2 and q4 in both directions: q2-&gt;q4 = 5, q4-&gt;q2 = 8.']" request="Is there a transition between q2 and q4, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;No transition exists between q2 and q4.&quot;], &quot;missing_detail&quot;: [&quot;&quot;], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q2 and q4.&quot;], &quot;extra&quot;: [&quot;The transition from q4 to q2 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transtion between q2 and q4.&quot;, &quot;Tere is no transition between q2 and q4.&quot;, &quot;There is no transition between q2 and qo4.&quot;, &quot;There is no transitioyn between q2 and q4.&quot;], &quot;ambiguos&quot;: [&quot;I think that There is no transition between q2 and q4.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION There is no transition between q2 and q4.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q3 and q0 in both directions: q3-&gt;q0 = 5, q0-&gt;q3 = 8.']" request="Is there a transition between q3 and q0, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;No transition exists between q3 and q0.&quot;], &quot;missing_detail&quot;: [&quot;&quot;], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q3 and q0.&quot;], &quot;extra&quot;: [&quot;The transition from q0 to q3 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition between q3 and q0&quot;, &quot;There is o transition between q3 and q0.&quot;, &quot;Thereb is no transition between q3 and q0.&quot;, &quot;Therel is no transition between q3 and q0.&quot;], &quot;ambiguos&quot;: [&quot;I think that There is no transition between q3 and q0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION There is no transition between q3 and q0.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q3 and q1 in both directions: q3-&gt;q1 = 5, q1-&gt;q3 = 8.']" request="Is there a transition between q3 and q1, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;No transition exists between q3 and q1.&quot;], &quot;missing_detail&quot;: [&quot;&quot;], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q3 and q1.&quot;], &quot;extra&quot;: [&quot;The transition from q1 to q3 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition between q3 nd q1.&quot;, &quot;There is no transition betwee q3 and q1.&quot;, &quot;There is no transition betweebn q3 and q1.&quot;, &quot;There is no transitioan between q3 and q1.&quot;], &quot;ambiguos&quot;: [&quot;I think that There is no transition between q3 and q1.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION There is no transition between q3 and q1.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition from q2 to q3 has value 00.']" request="Is there a transition between q2 and q3, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;The transition from q2 to q3 is labeled with 0.&quot;], &quot;missing_detail&quot;: [&quot;There is a transition from q2 to q3&quot;], &quot;swap&quot;: [&quot;The transition from q3 to q2 has value 0.&quot;], &quot;contradiction&quot;: [&quot;The transition from q2 to q3 has not value 0.&quot;], &quot;extra&quot;: [&quot;The transition from q2 to q3 has value 0 and the transition from q3 to q2 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The transitin from q2 to q3 has value 0.&quot;, &quot;The transition from q2 to q3 has value .&quot;, &quot;The transition from q2 to q3 hnas value 0.&quot;, &quot;The transition from q2 to q3 has valyue 0.&quot;], &quot;ambiguos&quot;: [&quot;I think that The transition from q2 to q3 has value 0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION The transition from q2 to q3 has value 0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q3 and q3 in both directions: q3-&gt;q3 = 5, q3-&gt;q3 = 8.']" request="Is there a transition between q3 and q3, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;No transition exists between q3 and q3.&quot;], &quot;missing_detail&quot;: [&quot;&quot;], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q3 and q3.&quot;], &quot;extra&quot;: [&quot;The transition from q3 to q3 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition between q and q3.&quot;, &quot;There is no transition between q3 an q3.&quot;, &quot;There is no ctransition between q3 and q3.&quot;, &quot;Therke is no transition between q3 and q3.&quot;], &quot;ambiguos&quot;: [&quot;I think that There is no transition between q3 and q3.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION There is no transition between q3 and q3.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition from q3 to q4 has value 00.']" request="Is there a transition between q3 and q4, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;The transition from q3 to q4 is labeled with 0.&quot;], &quot;missing_detail&quot;: [&quot;There is a transition from q3 to q4&quot;], &quot;swap&quot;: [&quot;The transition from q4 to q3 has value 0.&quot;], &quot;contradiction&quot;: [&quot;The transition from q3 to q4 has not value 0.&quot;], &quot;extra&quot;: [&quot;The transition from q3 to q4 has value 0 and the transition from q4 to q3 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The transitin from q3 to q4 has value 0.&quot;, &quot;Te transition from q3 to q4 has value 0.&quot;, &quot;The transition from q3 to q4 hwas value 0.&quot;, &quot;The transition from q3 to qh4 has value 0.&quot;], &quot;ambiguos&quot;: [&quot;I think that The transition from q3 to q4 has value 0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION The transition from q3 to q4 has value 0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition from q4 to q0 has value 00.']" request="Is there a transition between q4 and q0, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;The transition from q4 to q0 is labeled with 0.&quot;], &quot;missing_detail&quot;: [&quot;There is a transition from q4 to q0&quot;], &quot;swap&quot;: [&quot;The transition from q0 to q4 has value 0.&quot;], &quot;contradiction&quot;: [&quot;The transition from q4 to q0 has not value 0.&quot;], &quot;extra&quot;: [&quot;The transition from q4 to q0 has value 0 and the transition from q0 to q4 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The transition from q4 to q0 as value 0.&quot;, &quot;The transition from q4 o q0 has value 0.&quot;, &quot;The transition from q4 tgo q0 has value 0.&quot;, &quot;The transition from q4 tou q0 has value 0.&quot;], &quot;ambiguos&quot;: [&quot;I think that The transition from q4 to q0 has value 0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION The transition from q4 to q0 has value 0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q4 and q1 in both directions: q4-&gt;q1 = 5, q1-&gt;q4 = 8.']" request="Is there a transition between q4 and q1, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;No transition exists between q4 and q1.&quot;], &quot;missing_detail&quot;: [&quot;&quot;], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q4 and q1.&quot;], &quot;extra&quot;: [&quot;The transition from q1 to q4 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no ransition between q4 and q1.&quot;, &quot;Thereis no transition between q4 and q1.&quot;, &quot;There is lno transition between q4 and q1.&quot;, &quot;There is no transition betweern q4 and q1.&quot;], &quot;ambiguos&quot;: [&quot;I think that There is no transition between q4 and q1.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION There is no transition between q4 and q1.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q4 and q2 in both directions: q4-&gt;q2 = 5, q2-&gt;q4 = 8.']" request="Is there a transition between q4 and q2, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;No transition exists between q4 and q2.&quot;], &quot;missing_detail&quot;: [&quot;&quot;], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q4 and q2.&quot;], &quot;extra&quot;: [&quot;The transition from q2 to q4 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition between q4 nd q2.&quot;, &quot;There is no tranition between q4 and q2.&quot;, &quot;There is no transitiron between q4 and q2.&quot;, &quot;There is no transiztion between q4 and q2.&quot;], &quot;ambiguos&quot;: [&quot;I think that There is no transition between q4 and q2.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION There is no transition between q4 and q2.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition from q3 to q4 has value 00.']" request="Is there a transition between q3 and q4, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;The transition from q3 to q4 is labeled with 0.&quot;], &quot;missing_detail&quot;: [&quot;There is a transition from q3 to q4&quot;], &quot;swap&quot;: [&quot;The transition from q4 to q3 has value 0.&quot;], &quot;contradiction&quot;: [&quot;The transition from q3 to q4 has not value 0.&quot;], &quot;extra&quot;: [&quot;The transition from q3 to q4 has value 0 and the transition from q4 to q3 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;Th transition from q3 to q4 has value 0.&quot;, &quot;The transition from q3 to q4 as value 0.&quot;, &quot;The transition from q3 to q4 has value 0i.&quot;, &quot;The trahnsition from q3 to q4 has value 0.&quot;], &quot;ambiguos&quot;: [&quot;I think that The transition from q3 to q4 has value 0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION The transition from q3 to q4 has value 0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['There are transitions between q4 and q4 in both directions: q4-&gt;q4 = 5, q4-&gt;q4 = 8.']" request="Is there a transition between q4 and q4, and what is its value?" metamorph="{&quot;paraphrase&quot;: [&quot;No transition exists between q4 and q4.&quot;], &quot;missing_detail&quot;: [&quot;&quot;], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q4 and q4.&quot;], &quot;extra&quot;: [&quot;The transition from q4 to q4 has value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition beween q4 and q4.&quot;, &quot;There is no tranition between q4 and q4.&quot;, &quot;There is no tranxsition between q4 and q4.&quot;, &quot;There is no transition between q4b and q4.&quot;], &quot;ambiguos&quot;: [&quot;I think that There is no transition between q4 and q4.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame></frame>
+        <template>
+            MUTATION There is no transition between q4 and q4.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="states">
+                
+                
+                <slot-value value="*"/>
+                
+                
+                <slot-value value="*"/>
+                
+            
+            </slot>
+            
+        
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="states">
+                
+                    
+                <slot-value value="q0"/>
+                
+                    
+                <slot-value value="*"/>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="states">
+                
+                    
+                <slot-value value="q1"/>
+                
+                    
+                <slot-value value="*"/>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="states">
+                
+                    
+                <slot-value value="q2"/>
+                
+                    
+                <slot-value value="*"/>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="states">
+                
+                    
+                <slot-value value="q3"/>
+                
+                    
+                <slot-value value="*"/>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="states">
+                
+                    
+                <slot-value value="q4"/>
+                
+                    
+                <slot-value value="*"/>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q0 and q0 is with value 5.']" request="What is the value of the between q0 and q0?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q0 to q0.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q0 and q0.&quot;], &quot;extra&quot;: [&quot;There is no transition between q0 and q0 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is notransition between q0 and q0.&quot;, &quot;here is no transition between q0 and q0.&quot;, &quot;There is no transition between q0 and cq0.&quot;, &quot;There is no transition betsween q0 and q0.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q0 and q0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q0 and q0.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['there is no transition between q0 and q1.']" request="What is the value of the between q0 and q1?" metamorph="{&quot;paraphrase&quot;: [&quot;The transition between q0 and q1 has a value of 1.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;The transition between q1 and q0 is with value 1.&quot;], &quot;contradiction&quot;: [&quot;The transition between q0 and q1 is not with value 1.&quot;], &quot;extra&quot;: [&quot;The transition between q0 and q1 is with value 1 and the transition between q1 and q0 is with value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;Te transition between q0 and q1 is with value 1.&quot;, &quot;The transition between q0 and q1 is with value1.&quot;, &quot;The atransition between q0 and q1 is with value 1.&quot;, &quot;The transition between q0 and q1 izs with value 1.&quot;], &quot;ambiguos&quot;: [&quot;I think the transition between q0 and q1 should be with value 1.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            The transition between q0 and q1 is with value 1.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q0 and q2 is with value 5.']" request="What is the value of the between q0 and q2?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q0 to q2.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;There is no transition between q2 and q0.&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q0 and q2.&quot;], &quot;extra&quot;: [&quot;There is no transition between q0 and q2 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition between q0 and q.&quot;, &quot;There is no transition between q0 andq2.&quot;, &quot;Theree is no transition between q0 and q2.&quot;, &quot;There is no transition betweuen q0 and q2.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q0 and q2.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q0 and q2.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q0 and q3 is with value 5.']" request="What is the value of the between q0 and q3?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q0 to q3.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;There is no transition between q3 and q0.&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q0 and q3.&quot;], &quot;extra&quot;: [&quot;There is no transition between q0 and q3 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition between q0 and q.&quot;, &quot;There isno transition between q0 and q3.&quot;, &quot;There is no transixtion between q0 and q3.&quot;, &quot;There is no transition betmween q0 and q3.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q0 and q3.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q0 and q3.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q0 and q4 is with value 5.']" request="What is the value of the between q0 and q4?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q0 to q4.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;There is no transition between q4 and q0.&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q0 and q4.&quot;], &quot;extra&quot;: [&quot;There is no transition between q0 and q4 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is notransition between q0 and q4.&quot;, &quot;There is no transition betweenq0 and q4.&quot;, &quot;There is no transition between q0i and q4.&quot;, &quot;There is no traunsition between q0 and q4.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q0 and q4.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q0 and q4.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q1 and q0 is with value 5.']" request="What is the value of the between q1 and q0?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q1 to q0.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;There is no transition between q0 and q1.&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q1 and q0.&quot;], &quot;extra&quot;: [&quot;There is no transition between q1 and q0 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition between q1 and q.&quot;, &quot;here is no transition between q1 and q0.&quot;, &quot;There is qno transition between q1 and q0.&quot;, &quot;There is no transitiwon between q1 and q0.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q1 and q0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q1 and q0.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q1 and q1 is with value 5.']" request="What is the value of the between q1 and q1?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q1 to q1.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q1 and q1.&quot;], &quot;extra&quot;: [&quot;There is no transition between q1 and q1 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition beween q1 and q1.&quot;, &quot;There is no transitio between q1 and q1.&quot;, &quot;Trhere is no transition between q1 and q1.&quot;, &quot;There is no transition betwreen q1 and q1.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q1 and q1.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q1 and q1.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['there is no transition between q1 and q2.']" request="What is the value of the between q1 and q2?" metamorph="{&quot;paraphrase&quot;: [&quot;The transition between q1 and q2 has a value of 1.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;The transition between q2 and q1 is with value 1.&quot;], &quot;contradiction&quot;: [&quot;The transition between q1 and q2 is not with value 1.&quot;], &quot;extra&quot;: [&quot;The transition between q1 and q2 is with value 1 and the transition between q2 and q1 is with value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;Th transition between q1 and q2 is with value 1.&quot;, &quot;The transition between q1 and 2 is with value 1.&quot;, &quot;The transition between q1 and q2 is wihth value 1.&quot;, &quot;The transition between q1 and q2 is with svalue 1.&quot;], &quot;ambiguos&quot;: [&quot;I think the transition between q1 and q2 should be with value 1.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            The transition between q1 and q2 is with value 1.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q1 and q3 is with value 5.']" request="What is the value of the between q1 and q3?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q1 to q3.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;There is no transition between q3 and q1.&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q1 and q3.&quot;], &quot;extra&quot;: [&quot;There is no transition between q1 and q3 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition betweenq1 and q3.&quot;, &quot;There is no transiton between q1 and q3.&quot;, &quot;Therje is no transition between q1 and q3.&quot;, &quot;There is no tfransition between q1 and q3.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q1 and q3.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q1 and q3.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q1 and q4 is with value 5.']" request="What is the value of the between q1 and q4?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q1 to q4.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;There is no transition between q4 and q1.&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q1 and q4.&quot;], &quot;extra&quot;: [&quot;There is no transition between q1 and q4 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition between q1 and 4.&quot;, &quot;There is no transition between q1 and q4&quot;, &quot;There is no transition between eq1 and q4.&quot;, &quot;There is no transition between q1 and vq4.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q1 and q4.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q1 and q4.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q2 and q0 is with value 5.']" request="What is the value of the between q2 and q0?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q2 to q0.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;There is no transition between q0 and q2.&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q2 and q0.&quot;], &quot;extra&quot;: [&quot;There is no transition between q2 and q0 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no ransition between q2 and q0.&quot;, &quot;Thre is no transition between q2 and q0.&quot;, &quot;There is no transivtion between q2 and q0.&quot;, &quot;There is no transition betweuen q2 and q0.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q2 and q0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q2 and q0.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q2 and q1 is with value 5.']" request="What is the value of the between q2 and q1?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q2 to q1.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;There is no transition between q1 and q2.&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q2 and q1.&quot;], &quot;extra&quot;: [&quot;There is no transition between q2 and q1 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;Thee is no transition between q2 and q1.&quot;, &quot;There is no transition betwee q2 and q1.&quot;, &quot;There is no transition betwbeen q2 and q1.&quot;, &quot;There is no transitkion between q2 and q1.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q2 and q1.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q2 and q1.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q2 and q2 is with value 5.']" request="What is the value of the between q2 and q2?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q2 to q2.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q2 and q2.&quot;], &quot;extra&quot;: [&quot;There is no transition between q2 and q2 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transiton between q2 and q2.&quot;, &quot;There i no transition between q2 and q2.&quot;, &quot;There isk no transition between q2 and q2.&quot;, &quot;Therez is no transition between q2 and q2.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q2 and q2.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q2 and q2.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['there is no transition between q2 and q3.']" request="What is the value of the between q2 and q3?" metamorph="{&quot;paraphrase&quot;: [&quot;The transition between q2 and q3 has a value of 0.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;The transition between q3 and q2 is with value 0.&quot;], &quot;contradiction&quot;: [&quot;The transition between q2 and q3 is not with value 0.&quot;], &quot;extra&quot;: [&quot;The transition between q2 and q3 is with value 0 and the transition between q3 and q2 is with value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The transition between q2 andq3 is with value 0.&quot;, &quot;The transition between q2 and q3 is withvalue 0.&quot;, &quot;The transition between q2 and q3 is with value 0.l&quot;, &quot;The transiqtion between q2 and q3 is with value 0.&quot;], &quot;ambiguos&quot;: [&quot;I think the transition between q2 and q3 should be with value 0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            The transition between q2 and q3 is with value 0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q2 and q4 is with value 5.']" request="What is the value of the between q2 and q4?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q2 to q4.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;There is no transition between q4 and q2.&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q2 and q4.&quot;], &quot;extra&quot;: [&quot;There is no transition between q2 and q4 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition betwee q2 and q4.&quot;, &quot;There is no transitionbetween q2 and q4.&quot;, &quot;There is no transition between q2o and q4.&quot;, &quot;There is no traknsition between q2 and q4.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q2 and q4.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q2 and q4.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q3 and q0 is with value 5.']" request="What is the value of the between q3 and q0?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q3 to q0.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;There is no transition between q0 and q3.&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q3 and q0.&quot;], &quot;extra&quot;: [&quot;There is no transition between q3 and q0 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transitio between q3 and q0.&quot;, &quot;There is no transition beteen q3 and q0.&quot;, &quot;There isd no transition between q3 and q0.&quot;, &quot;There is nyo transition between q3 and q0.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q3 and q0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q3 and q0.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q3 and q1 is with value 5.']" request="What is the value of the between q3 and q1?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q3 to q1.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;There is no transition between q1 and q3.&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q3 and q1.&quot;], &quot;extra&quot;: [&quot;There is no transition between q3 and q1 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition between q3and q1.&quot;, &quot;There is no tranition between q3 and q1.&quot;, &quot;There is no transition between q3k and q1.&quot;, &quot;Therye is no transition between q3 and q1.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q3 and q1.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q3 and q1.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q3 and q2 is with value 5.']" request="What is the value of the between q3 and q2?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q3 to q2.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;There is no transition between q2 and q3.&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q3 and q2.&quot;], &quot;extra&quot;: [&quot;There is no transition between q3 and q2 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no tansition between q3 and q2.&quot;, &quot;There is no transitin between q3 and q2.&quot;, &quot;There isz no transition between q3 and q2.&quot;, &quot;There is no transition betweend q3 and q2.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q3 and q2.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q3 and q2.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q3 and q3 is with value 5.']" request="What is the value of the between q3 and q3?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q3 to q3.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q3 and q3.&quot;], &quot;extra&quot;: [&quot;There is no transition between q3 and q3 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transitio between q3 and q3.&quot;, &quot;Thereis no transition between q3 and q3.&quot;, &quot;Theore is no transition between q3 and q3.&quot;, &quot;There is no transition betwbeen q3 and q3.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q3 and q3.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q3 and q3.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['there is no transition between q3 and q4.']" request="What is the value of the between q3 and q4?" metamorph="{&quot;paraphrase&quot;: [&quot;The transition between q3 and q4 has a value of 0.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;The transition between q4 and q3 is with value 0.&quot;], &quot;contradiction&quot;: [&quot;The transition between q3 and q4 is not with value 0.&quot;], &quot;extra&quot;: [&quot;The transition between q3 and q4 is with value 0 and the transition between q4 and q3 is with value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The transition betwen q3 and q4 is with value 0.&quot;, &quot;The transition between q3 an q4 is with value 0.&quot;, &quot;The transition between q3 aand q4 is with value 0.&quot;, &quot;The transition between q3 andx q4 is with value 0.&quot;], &quot;ambiguos&quot;: [&quot;I think the transition between q3 and q4 should be with value 0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            The transition between q3 and q4 is with value 0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3-q4</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['there is no transition between q4 and q0.']" request="What is the value of the between q4 and q0?" metamorph="{&quot;paraphrase&quot;: [&quot;The transition between q4 and q0 has a value of 0.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;The transition between q0 and q4 is with value 0.&quot;], &quot;contradiction&quot;: [&quot;The transition between q4 and q0 is not with value 0.&quot;], &quot;extra&quot;: [&quot;The transition between q4 and q0 is with value 0 and the transition between q0 and q4 is with value 5.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The transition between q4 and q0is with value 0.&quot;, &quot;The transition between q4and q0 is with value 0.&quot;, &quot;The transition between q4 aand q0 is with value 0.&quot;, &quot;The transition between q4 and q0 is wiyth value 0.&quot;], &quot;ambiguos&quot;: [&quot;I think the transition between q4 and q0 should be with value 0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="q0"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            The transition between q4 and q0 is with value 0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q4 and q1 is with value 5.']" request="What is the value of the between q4 and q1?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q4 to q1.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;There is no transition between q1 and q4.&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q4 and q1.&quot;], &quot;extra&quot;: [&quot;There is no transition between q4 and q1 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;Thee is no transition between q4 and q1.&quot;, &quot;There is no transition beween q4 and q1.&quot;, &quot;Thesre is no transition between q4 and q1.&quot;, &quot;There is no transitnion between q4 and q1.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q4 and q1.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="q1"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q4 and q1.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q4 and q2 is with value 5.']" request="What is the value of the between q4 and q2?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q4 to q2.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;There is no transition between q2 and q4.&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q4 and q2.&quot;], &quot;extra&quot;: [&quot;There is no transition between q4 and q2 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition beteen q4 and q2.&quot;, &quot;Thereis no transition between q4 and q2.&quot;, &quot;There is no transition between q4a and q2.&quot;, &quot;There is no taransition between q4 and q2.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q4 and q2.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="q2"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q4 and q2.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q4 and q3 is with value 5.']" request="What is the value of the between q4 and q3?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q4 to q3.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;There is no transition between q3 and q4.&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q4 and q3.&quot;], &quot;extra&quot;: [&quot;There is no transition between q4 and q3 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transiion between q4 and q3.&quot;, &quot;There is no transition between q4 and q.&quot;, &quot;Tthere is no transition between q4 and q3.&quot;, &quot;There is no transition betweean q4 and q3.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q4 and q3.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="q3"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q4 and q3.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The transition between q4 and q4 is with value 5.']" request="What is the value of the between q4 and q4?" metamorph="{&quot;paraphrase&quot;: [&quot;There is no transition from q4 to q4.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [&quot;&quot;], &quot;contradiction&quot;: [&quot;There is a transition between q4 and q4.&quot;], &quot;extra&quot;: [&quot;There is no transition between q4 and q4 but the automata has 15 transitions in total.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There is no transition betweenq4 and q4.&quot;, &quot;There is no transitio between q4 and q4.&quot;, &quot;There is no rtransition between q4 and q4.&quot;, &quot;There is no transition betfween q4 and q4.&quot;], &quot;ambiguos&quot;: [&quot;I think that there is no transition between q4 and q4.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                    
+            <slot name="transitions">
+                
+                        
+                <slot-values>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="q4"/>
+                    
+                            
+                    <slot-value value="?"/>
+                    
+                        
+                </slot-values>
+                
+                    
+            </slot>
+            
+                
+        </frame>
+        <template>
+            There is no transition between q4 and q4.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="transitions">
+                
+                
+                <slot-values>
+                    
+                    
+                    <slot-value value="*"/>
+                    
+                    
+                    <slot-value value="*"/>
+                    
+                    
+                    <slot-value value="?"/>
+                    
+                
+                </slot-values>
+                
+            
+            </slot>
+            
+        
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="q0"/>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="q1"/>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="q2"/>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="q3"/>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="q4"/>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="q0"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="q1"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="q2"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="q3"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="transitions">
+                
+                    
+                <slot-values>
+                    
+                        
+                    <slot-value value="*"/>
+                    
+                        
+                    <slot-value value="q4"/>
+                    
+                        
+                    <slot-value value="?"/>
+                    
+                    
+                </slot-values>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            the transition is not defined.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The state q0 does not exist.']" request="Does state q0 exist?" metamorph="{&quot;paraphrase&quot;: [&quot;The state q0 is defined.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [], &quot;contradiction&quot;: [&quot;The state q0 is not defined.&quot;], &quot;extra&quot;: [&quot;The state q0 exists and is connected to q10.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;Th state q0 exists.&quot;, &quot;The state q0 exsts.&quot;, &quot;The state q0 exisxts.&quot;, &quot;The state qg0 exists.&quot;], &quot;ambiguos&quot;: [&quot;I think that The state q0 exists.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="states">
+                
+                    
+                <slot-value value="q0"/>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            The state q0 exists.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The state q1 does not exist.']" request="Does state q1 exist?" metamorph="{&quot;paraphrase&quot;: [&quot;The state q1 is defined.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [], &quot;contradiction&quot;: [&quot;The state q1 is not defined.&quot;], &quot;extra&quot;: [&quot;The state q1 exists and is connected to q10.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The stateq1 exists.&quot;, &quot;The tate q1 exists.&quot;, &quot;The statef q1 exists.&quot;, &quot;wThe state q1 exists.&quot;], &quot;ambiguos&quot;: [&quot;I think that The state q1 exists.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="states">
+                
+                    
+                <slot-value value="q1"/>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            The state q1 exists.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The state q2 does not exist.']" request="Does state q2 exist?" metamorph="{&quot;paraphrase&quot;: [&quot;The state q2 is defined.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [], &quot;contradiction&quot;: [&quot;The state q2 is not defined.&quot;], &quot;extra&quot;: [&quot;The state q2 exists and is connected to q10.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The state q2 exits.&quot;, &quot;The state q2 exsts.&quot;, &quot;The state q2a exists.&quot;, &quot;The stiate q2 exists.&quot;], &quot;ambiguos&quot;: [&quot;I think that The state q2 exists.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="states">
+                
+                    
+                <slot-value value="q2"/>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            The state q2 exists.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The state q3 does not exist.']" request="Does state q3 exist?" metamorph="{&quot;paraphrase&quot;: [&quot;The state q3 is defined.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [], &quot;contradiction&quot;: [&quot;The state q3 is not defined.&quot;], &quot;extra&quot;: [&quot;The state q3 exists and is connected to q10.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The state q3 exsts.&quot;, &quot;The state q3exists.&quot;, &quot;Thye state q3 exists.&quot;, &quot;The bstate q3 exists.&quot;], &quot;ambiguos&quot;: [&quot;I think that The state q3 exists.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="states">
+                
+                    
+                <slot-value value="q3"/>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            The state q3 exists.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="transition" wrong="['The state q4 does not exist.']" request="Does state q4 exist?" metamorph="{&quot;paraphrase&quot;: [&quot;The state q4 is defined.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [], &quot;contradiction&quot;: [&quot;The state q4 is not defined.&quot;], &quot;extra&quot;: [&quot;The state q4 exists and is connected to q10.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The stae q4 exists.&quot;, &quot;Thestate q4 exists.&quot;, &quot;The state q4 exisots.&quot;, &quot;Tehe state q4 exists.&quot;], &quot;ambiguos&quot;: [&quot;I think that The state q4 exists.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+                
+            <slot name="states">
+                
+                    
+                <slot-value value="q4"/>
+                
+                
+            </slot>
+            
+            
+        </frame>
+        <template>
+            The state q4 exists.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state" wrong="['The initial state does not exist.']" request="Which is the initial state?" metamorph="{&quot;paraphrase&quot;: [&quot;The starting state is q0.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [], &quot;contradiction&quot;: [&quot;The initial state is not q0.&quot;], &quot;extra&quot;: [&quot;The initial state is q0 and the final state does not exist.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The intial state is q0.&quot;, &quot;The initil state is q0.&quot;, &quot;The initial state iis q0.&quot;, &quot;The initial state isz q0.&quot;], &quot;ambiguos&quot;: [&quot;I think that the initial state is q0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="initialState" value="q0"/>
+            
+        
+        </frame>
+        <template>
+            The initial state is q0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="initialState" value="*"/>
+            
+        
+        </frame>
+        <template>
+            It is not the initial state.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state" wrong="['The final state does not exist.']" request="Which is the final state?" metamorph="{&quot;paraphrase&quot;: [&quot;The ending state is q0.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [], &quot;contradiction&quot;: [&quot;The final state is not q0.&quot;], &quot;extra&quot;: [&quot;The final state is q0 and the initial state does not exist.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;The final state is q0&quot;, &quot;The final tate is q0.&quot;, &quot;The final sbtate is q0.&quot;, &quot;The zfinal state is q0.&quot;], &quot;ambiguos&quot;: [&quot;I think that the final state is q0.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="finalStates">
+                
+                
+                <slot-value value="q0"/>
+                
+            
+            </slot>
+            
+        
+        </frame>
+        <template>
+            The final state is q0.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="finalStates">
+                
+                
+                <slot-value value="*"/>
+                
+            
+            </slot>
+            
+        
+        </frame>
+        <template>
+            The state is not the final state.
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state" wrong="['This automaton has 6 states']" request="How many states does this automaton have?" metamorph="{&quot;paraphrase&quot;: [&quot;This automaton consists of 5 states.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [], &quot;contradiction&quot;: [&quot;This automaton has not 5 states.&quot;], &quot;extra&quot;: [&quot;This automaton has 5 states and 10 transitions.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;This auomaton has 5 states.&quot;, &quot;This automaton has 5 sates.&quot;, &quot;This automatoni has 5 states.&quot;, &quot;This automatovn has 5 states.&quot;], &quot;ambiguos&quot;: [&quot;I think that this automaton has 5 states.&quot;]}">
+        <acts>
+            <act time="0">Ta:request</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="numberOfStates" value="?"/>
+            
+        
+        </frame>
+        <template>
+            This automaton has 5 states.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state" wrong="['This automaton has 6 states']" request="How many states does this automaton have?" metamorph="{&quot;paraphrase&quot;: [&quot;This automaton has 5 states.&quot;], &quot;missing_detail&quot;: [], &quot;swap&quot;: [], &quot;contradiction&quot;: [&quot;There are not 5 states in this automaton.&quot;], &quot;extra&quot;: [&quot;There are 5 states in this automaton and 10 transitions.&quot;], &quot;off_topic&quot;: [&quot;I like being a teacher&quot;, &quot;I like pizza&quot;], &quot;typo&quot;: [&quot;There are 5 states in this automaon.&quot;, &quot;There are 5 states in this automton.&quot;, &quot;There are 5 states in thiks automaton.&quot;, &quot;There are 5 states izn this automaton.&quot;], &quot;ambiguos&quot;: [&quot;I think that there are 5 states in this automaton.&quot;]}">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="numberOfStates" value="5"/>
+            
+        
+        </frame>
+        <template>
+            There are 5 states in this automaton.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+    <category intent="fsa-practical" argument="state">
+        <acts>
+            <act time="0">Ta:propositionalQuestion</act>
+        </acts>
+        <frame>
+            
+            
+            <slot name="numberOfStates" value="*"/>
+            
+        
+        </frame>
+        <template>
+            The number of states is incorrect.
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q3</svgElement>
+            <svgElement style-name="stroke" style-value="#04ed00">simbolo-q4</svgElement>
+            <image>automi/automa.svg</image>
+        </template>
+    </category>
+</aiml>

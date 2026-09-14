@@ -17,7 +17,8 @@ class FrameParser:
             'da' : 'dialogue_act',
             'et' : 'intent',
             'sn' : 'slot_names',
-            'sv' : 'slot_values'
+            'sv' : 'slot_values',
+            'alphabet' : 'alphabet'  # TODO
         }
 
         arguments = [
@@ -66,6 +67,11 @@ class FrameParser:
 
         result = {}
 
+        print("\n====================")
+        print("RAW OUTPUT:")
+        print(output_text)
+        print("====================")
+
         convertedOutput = ast.literal_eval(output_text)
         if convertedOutput:
             for key, value in convertedOutput.items():
@@ -113,6 +119,7 @@ class FrameParser:
                             logger.warning("Formato errato per slot_values.")
                             result[key] = []
                     elif key == 'slot_names':
+                        list_str = flatten_if_needed(list_str)
                         list_str = match.group(1).strip().replace("'", '"')
                         result[key] = ast.literal_eval(f"[{list_str}]")
                     else:
@@ -170,6 +177,18 @@ class FrameParser:
 
         result = FrameParser.convert_tuples_to_lists(result)
         return result
+    
+    @staticmethod
+    def flatten_if_needed(x):
+        # caso già corretto: lista di stringhe
+        if isinstance(x, list) and all(isinstance(i, str) for i in x):
+            return x
+
+        # caso da flatten: lista di liste
+        if isinstance(x, list) and all(isinstance(i, list) for i in x):
+            return [item for sublist in x for item in sublist]
+
+        return x
     
     @staticmethod
     def convert_tuples_to_lists(obj):

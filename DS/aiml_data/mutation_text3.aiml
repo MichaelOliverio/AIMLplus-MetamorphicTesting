@@ -25,13 +25,13 @@
             <image>automi/automa.svg</image>
         </template>
     </category>
-    <category intent="fsa-practical" argument="transition" wrong="['The automaton has 3 transitions: ', 'The automaton has 3 transitions: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, ']" request="How many transitions does the automaton have, and what are their values?">
+    <category intent="fsa-practical" argument="transition" wrong="['The automaton has 3 transitions: ', 'The automaton has 3 transitions: q1 with value 1 goes to q0, q2 with value 1 goes to q1, q3 with value 0 goes to q2, q4 with value 0 goes to q3, ']" request="How many transitions does the automaton have, and what are their values?">
         <acts>
             <act time="0">Ta:request</act>
         </acts>
         <frame></frame>
         <template>
-            The automaton has 5 transitions: q1 with value 1 goes to q0, q2 with value 1 goes to q1, q3 with value 0 goes to q2, q4 with value 0 goes to q3, q4 with value 0 goes to q0.
+            MUTATION The automaton has 5 transitions: q0 with value 1 goes to q1, q1 with value 1 goes to q2, q2 with value 0 goes to q3, q3 with value 0 goes to q4, q4 with value 0 goes to q0.
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q0-q1</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q1-q2</svgElement>
             <svgElement style-name="stroke" style-value="#04ed00">simbolo-q2-q3</svgElement>
@@ -900,7 +900,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -934,7 +934,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -969,7 +969,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1003,7 +1003,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1037,7 +1037,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1071,7 +1071,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1105,7 +1105,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1139,7 +1139,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1174,7 +1174,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1208,7 +1208,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1242,7 +1242,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1276,7 +1276,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1310,7 +1310,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1344,7 +1344,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1379,7 +1379,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1413,7 +1413,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1447,7 +1447,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1481,7 +1481,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1515,7 +1515,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1549,7 +1549,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1584,7 +1584,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1619,7 +1619,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1653,7 +1653,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1687,7 +1687,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     
@@ -1721,7 +1721,7 @@
             
                     
             <slot name="transitions">
-                
+                 
                         
                 <slot-values>
                     

@@ -66,8 +66,3 @@ To execute the service:
 1. From terminal: "cd DS"
 2. Then execute command "uvicorn api:app --reload"
 
----
-
-## 4. Testing tools
-
-Inside the folder "SvgTesting" it is possible to find all the testing tools created to test the system and all the corpuses
